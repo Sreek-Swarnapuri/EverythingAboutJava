@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="721805ae-5075-4181-a040-b62452a8ce8b" name="Default Changelist" comment="" />
+    <list default="true" id="721805ae-5075-4181-a040-b62452a8ce8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/looping/DoWhileLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/looping/WhileLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/looping/WhileLoop.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,16 +18,23 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1TohS7U4hNUptXmwWlVHGM4IqTI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.CalcEngine">
+  <component name="RunManager" selected="Application.DoWhileLoop">
     <configuration name="CalcEngine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Projects.CalcEngine" />
       <module name="EverythingAboutJava" />
@@ -37,25 +48,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="variables.DataTypes" />
+    <configuration name="DoWhileLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="looping.DoWhileLoop" />
       <module name="EverythingAboutJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="variables.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OperatorPrecedence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="variables.OperatorPrecedence" />
-      <module name="EverythingAboutJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="variables.*" />
+          <option name="PATTERN" value="looping.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,13 +87,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WhileLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="looping.WhileLoop" />
+      <module name="EverythingAboutJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="looping.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DoWhileLoop" />
+        <item itemvalue="Application.WhileLoop" />
         <item itemvalue="Application.CalcEngine" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.TypeConversion" />
-        <item itemvalue="Application.OperatorPrecedence" />
-        <item itemvalue="Application.DataTypes" />
       </list>
     </recent_temporary>
   </component>
@@ -129,22 +140,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="450" y="138" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.834@0.0.1536.834" timestamp="1577115282731" />
-    <state width="767" height="204" key="GridCell.Tab.0.bottom" timestamp="1577169364344">
+    <state width="1537" height="204" key="GridCell.Tab.0.bottom" timestamp="1577190027751">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="767" height="204" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1577169364344" />
-    <state width="767" height="204" key="GridCell.Tab.0.center" timestamp="1577169364344">
+    <state width="1537" height="204" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1577190027751" />
+    <state width="1537" height="204" key="GridCell.Tab.0.center" timestamp="1577190027751">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="767" height="204" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1577169364344" />
-    <state width="767" height="204" key="GridCell.Tab.0.left" timestamp="1577169364344">
+    <state width="1537" height="204" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1577190027751" />
+    <state width="1537" height="204" key="GridCell.Tab.0.left" timestamp="1577190027751">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="767" height="204" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1577169364344" />
-    <state width="767" height="204" key="GridCell.Tab.0.right" timestamp="1577169364344">
+    <state width="1537" height="204" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1577190027751" />
+    <state width="1537" height="204" key="GridCell.Tab.0.right" timestamp="1577190027751">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="767" height="204" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1577169364344" />
+    <state width="1537" height="204" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1577190027751" />
     <state x="400" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1577120067134">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
