@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="721805ae-5075-4181-a040-b62452a8ce8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/looping/DoWhileLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/looping/ForLoop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/looping/WhileLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/looping/WhileLoop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,13 +132,29 @@
       <option name="presentableId" value="Default" />
       <updated>1574186804480</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added another class in looping package - DoWhileLoop.java">
+      <created>1577190090350</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577190090350</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added another class in looping package - DoWhileLoop.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added another class in looping package - DoWhileLoop.java" />
   </component>
   <component name="WindowStateProjectService">
     <state x="450" y="138" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1577115282731">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="450" y="138" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.834@0.0.1536.834" timestamp="1577115282731" />
+    <state x="349" y="0" key="CommitChangelistDialog2" timestamp="1577190089090">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="349" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1577190089090" />
     <state width="1537" height="204" key="GridCell.Tab.0.bottom" timestamp="1577190027751">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
