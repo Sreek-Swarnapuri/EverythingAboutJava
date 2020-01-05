@@ -16,6 +16,28 @@ public class Main {
             System.out.println("result = " + m.getResult());
         }
 
+        System.out.println();
+        System.out.println("Using Overloads:");
+        System.out.println();
+
+        MathEquation equationOverload = new MathEquation('d');
+
+        equationOverload.execute(9.0d,4.0d);
+
+        System.out.println("result = " + equationOverload.getResult());
+
+        int leftInt = 9;
+        int rightInt = 4;
+
+        equationOverload.execute(leftInt,rightInt);
+
+        System.out.println("result = " + equationOverload.getResult());
+
+        //Since we are casting leftInt to double, system will only call the execute() which has doubles as parameters as its is the only feasible method
+        equationOverload.execute(leftInt,rightInt);
+
+        System.out.println("result = " + equationOverload.getResult());
+
     }
 
 //    public static MathEquation create(double leftVal, double rightVal, char opCode){
