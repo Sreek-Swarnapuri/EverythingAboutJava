@@ -1,4 +1,4 @@
-package Projects;
+package projects.pluralsight.calengine;
 
 public class CalcEngine {
 

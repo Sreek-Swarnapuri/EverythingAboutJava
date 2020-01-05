@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="721805ae-5075-4181-a040-b62452a8ce8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/looping/ForLoop.java" afterDir="false" />
+    <list default="true" id="721805ae-5075-4181-a040-b62452a8ce8b" name="Default Changelist" comment="Updated CalcEngine with Switch, loops and arrays">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/pluralsight/calengine/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/pluralsight/calengine/MathEquation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EverythingAboutJava/Projects/CalcEngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/CalcEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/pluralsight/calengine/CalcEngine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,13 +37,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.DoWhileLoop">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="CalcEngine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Projects.CalcEngine" />
+      <option name="MAIN_CLASS_NAME" value="projects.pluralsight.calengine.CalcEngine" />
       <module name="EverythingAboutJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Projects.*" />
+          <option name="PATTERN" value="projects.pluralsight.calengine.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.goldenstudios.test.Test" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="projects.pluralsight.calengine.Main" />
       <module name="EverythingAboutJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.goldenstudios.test.*" />
+          <option name="PATTERN" value="projects.pluralsight.calengine.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TypeConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="variables.TypeConversion" />
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Test" />
       <module name="EverythingAboutJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="variables.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.CalcEngine" />
         <item itemvalue="Application.DoWhileLoop" />
         <item itemvalue="Application.WhileLoop" />
-        <item itemvalue="Application.CalcEngine" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TypeConversion" />
       </list>
     </recent_temporary>
   </component>
@@ -139,41 +143,66 @@
       <option name="project" value="LOCAL" />
       <updated>1577190090350</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added another class in looping package - ForLoop.java">
+      <created>1577190351068</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577190351068</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Updated CalcEngine with Switch, loops and arrays">
+      <created>1578135178045</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578135178045</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added another class in looping package - DoWhileLoop.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added another class in looping package - DoWhileLoop.java" />
+    <MESSAGE value="Added another class in looping package - ForLoop.java" />
+    <MESSAGE value="Updated CalcEngine with Switch, loops and arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated CalcEngine with Switch, loops and arrays" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="4562" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1578223297471">
+      <screen x="3840" y="0" width="1920" height="1050" />
+    </state>
+    <state x="4562" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1578223297471" />
     <state x="450" y="138" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1577115282731">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="450" y="138" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.834@0.0.1536.834" timestamp="1577115282731" />
-    <state x="349" y="0" key="CommitChangelistDialog2" timestamp="1577190089090">
+    <state x="349" y="0" key="CommitChangelistDialog2" timestamp="1578135176252">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="349" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1577190089090" />
-    <state width="1537" height="204" key="GridCell.Tab.0.bottom" timestamp="1577190027751">
+    <state x="349" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1578135176252" />
+    <state width="1537" height="204" key="GridCell.Tab.0.bottom" timestamp="1578220599982">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="204" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1577190027751" />
-    <state width="1537" height="204" key="GridCell.Tab.0.center" timestamp="1577190027751">
+    <state width="1537" height="204" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1578220599982" />
+    <state width="1537" height="204" key="GridCell.Tab.0.center" timestamp="1578220599982">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="204" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1577190027751" />
-    <state width="1537" height="204" key="GridCell.Tab.0.left" timestamp="1577190027751">
+    <state width="1537" height="204" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1578220599982" />
+    <state width="1537" height="204" key="GridCell.Tab.0.left" timestamp="1578220599982">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="204" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1577190027751" />
-    <state width="1537" height="204" key="GridCell.Tab.0.right" timestamp="1577190027751">
+    <state width="1537" height="204" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1578220599982" />
+    <state width="1537" height="204" key="GridCell.Tab.0.right" timestamp="1578220599982">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="204" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1577190027751" />
-    <state x="400" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1577120067134">
+    <state width="1537" height="204" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1578220599982" />
+    <state x="262" y="86" key="Vcs.Push.Dialog.v2" timestamp="1578137906763">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="400" y="194" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1577120067134" />
+    <state x="262" y="86" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1578137906763" />
+    <state x="4340" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1578222104420">
+      <screen x="3840" y="0" width="1920" height="1050" />
+    </state>
+    <state x="4340" y="244" key="com.intellij.ide.util.TipDialog/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1578222104420" />
+    <state x="400" y="194" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1578023545918" />
   </component>
 </project>
