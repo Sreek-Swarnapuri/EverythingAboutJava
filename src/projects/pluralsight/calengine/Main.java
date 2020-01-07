@@ -38,6 +38,26 @@ public class Main {
 
         System.out.println("result = " + equationOverload.getResult());
 
+
+        System.out.println();
+        System.out.println("Using Inheritance:");
+        System.out.println();
+
+        CalculateBase[] calculateBases = {
+                new Divider(100.0d,20.0d),
+                new Multiplier(209.9d,56.2d),
+                new Adder(2435.2514d, 26541.365d),
+                new Subracter(125253.478845d, 26485.6985d)
+        };
+
+        for (CalculateBase calculateBase:
+             calculateBases) {
+            calculateBase.calculate();
+            System.out.println("result = " + calculateBase.getResult());
+        }
+
+
+
     }
 
 //    public static MathEquation create(double leftVal, double rightVal, char opCode){
