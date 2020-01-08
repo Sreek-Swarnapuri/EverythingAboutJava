@@ -3,6 +3,39 @@ package projects.pluralsight.calengine;
 public class Main {
 
     public static void main(String[] args){
+//        useMathEquation();
+//        useCalculatorBase();
+
+        String[] statements ={
+                "divide 100.0 50.0",
+                "add 1202.2121 1422.03",
+                "subract 1234.09 35.08",
+                "multiply 122.54 45.23"
+        };
+
+        CalculateHelper calculateHelper = new CalculateHelper();
+
+        for (String stmt:
+             statements) {
+            calculateHelper.process(stmt);
+            System.out.println(calculateHelper);
+        }
+
+
+
+    }
+
+//    public static MathEquation create(double leftVal, double rightVal, char opCode){
+//        MathEquation  mathEquation = new MathEquation();
+//
+//        mathEquation.setLeftVal(leftVal);
+//        mathEquation.setRightVal(rightVal);
+//        mathEquation.setOpCode(opCode);
+//
+//        return mathEquation;
+//    }
+
+    static void useMathEquation() {
 
         MathEquation[] equations = new MathEquation[4];
         equations[0] = new MathEquation(100.0d,50.0d,'d');
@@ -11,7 +44,7 @@ public class Main {
         equations[3] = new MathEquation(100.0d,50.0d,'m');
 
         for (MathEquation m:
-             equations) {
+                equations) {
             m.execute();
             System.out.println("result = " + m.getResult());
         }
@@ -39,6 +72,9 @@ public class Main {
         System.out.println("result = " + equationOverload.getResult());
 
 
+    }
+
+    static void useCalculatorBase(){
         System.out.println();
         System.out.println("Using Inheritance:");
         System.out.println();
@@ -47,27 +83,15 @@ public class Main {
                 new Divider(100.0d,20.0d),
                 new Multiplier(209.9d,56.2d),
                 new Adder(2435.2514d, 26541.365d),
-                new Subracter(125253.478845d, 26485.6985d)
+                new Subtracter(125253.478845d, 26485.6985d)
         };
 
         for (CalculateBase calculateBase:
-             calculateBases) {
+                calculateBases) {
             calculateBase.calculate();
             System.out.println("result = " + calculateBase.getResult());
         }
 
-
-
     }
-
-//    public static MathEquation create(double leftVal, double rightVal, char opCode){
-//        MathEquation  mathEquation = new MathEquation();
-//
-//        mathEquation.setLeftVal(leftVal);
-//        mathEquation.setRightVal(rightVal);
-//        mathEquation.setOpCode(opCode);
-//
-//        return mathEquation;
-//    }
 
 }

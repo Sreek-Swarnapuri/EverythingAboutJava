@@ -1,10 +1,10 @@
 package projects.pluralsight.calengine;
 
-public class Subracter extends CalculateBase {
+public class Subtracter extends CalculateBase {
 
-    public Subracter(){}
+    public Subtracter(){}
 
-    public Subracter(double leftVal, double rightVal){
+    public Subtracter(double leftVal, double rightVal){
         super(leftVal,rightVal);
     }
 
