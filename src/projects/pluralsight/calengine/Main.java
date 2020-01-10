@@ -7,9 +7,12 @@ public class Main {
 //        useCalculatorBase();
 
         String[] statements ={
+                "add 1.0",                  // Error: Incorrect number of values
+                "add xx 25.0",              // Error: non numeric data
+                "addX 0.0 0.0",             // Error: invalid command
                 "divide 100.0 50.0",
                 "add 1202.2121 1422.03",
-                "subract 1234.09 35.08",
+                "subtract 1234.09 35.08",
                 "multiply 122.54 45.23"
         };
 
@@ -17,8 +20,14 @@ public class Main {
 
         for (String stmt:
              statements) {
-            calculateHelper.process(stmt);
-            System.out.println(calculateHelper);
+            try {
+                calculateHelper.process(stmt);
+                System.out.println(calculateHelper);
+            }catch (InvalidStatementException e){
+                System.out.println("Error: " + e.getMessage());
+                if(e.getCause() != null)
+                    System.out.println("Error Cause: " + e.getCause().getMessage());
+            }
         }
 
 
