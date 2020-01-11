@@ -1,4 +1,13 @@
-package projects.pluralsight.calengine;
+package projects.pluralsight.application;
+
+import projects.pluralsight.calengine.Adder;
+import projects.pluralsight.calengine.CalculateBase;
+import projects.pluralsight.calengine.CalculateHelper;
+import projects.pluralsight.calengine.Divider;
+import projects.pluralsight.calengine.InvalidStatementException;
+import projects.pluralsight.calengine.MathEquation;
+import projects.pluralsight.calengine.Multiplier;
+import projects.pluralsight.calengine.Subtracter;
 
 public class Main {
 
@@ -26,7 +35,7 @@ public class Main {
             }catch (InvalidStatementException e){
                 System.out.println("Error: " + e.getMessage());
                 if(e.getCause() != null)
-                    System.out.println("Error Cause: " + e.getCause().getMessage());
+                    System.out.println("    Original Exception: " + e.getCause().getMessage());
             }
         }
 

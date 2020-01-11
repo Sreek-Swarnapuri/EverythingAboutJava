@@ -1,6 +1,6 @@
 package projects.pluralsight.calengine;
 
-public enum MathCommand {
+enum MathCommand {
     Add,
     Subtract,
     Multiply,
