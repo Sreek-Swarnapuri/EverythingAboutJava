@@ -1,6 +1,6 @@
 package projects.pluralsight.calengine;
 
-public class Subtracter extends CalculateBase {
+public class Subtracter extends CalculateBase implements MathProcessing {
 
     public Subtracter(){}
 
@@ -11,6 +11,25 @@ public class Subtracter extends CalculateBase {
     @Override
     public void calculate(){
         setResult(super.getLeftVal()-super.getRightVal());
+    }
+
+    @Override
+    public String getKeyword() {
+        return "subtract";
+    }
+
+    @Override
+    public char getSymbol() {
+        return '-';
+    }
+
+    @Override
+    public double doCalculation(double leftVal, double rightVal) {
+        setLeftVal(leftVal);
+        setRightVal(rightVal);
+        calculate();
+
+        return getResult();
     }
 
 }

@@ -4,9 +4,12 @@ import projects.pluralsight.calengine.Adder;
 import projects.pluralsight.calengine.CalculateBase;
 import projects.pluralsight.calengine.CalculateHelper;
 import projects.pluralsight.calengine.Divider;
+import projects.pluralsight.calengine.DynamicHelper;
 import projects.pluralsight.calengine.InvalidStatementException;
 import projects.pluralsight.calengine.MathEquation;
+import projects.pluralsight.calengine.MathProcessing;
 import projects.pluralsight.calengine.Multiplier;
+import projects.pluralsight.calengine.PowerOf;
 import projects.pluralsight.calengine.Subtracter;
 
 public class Main {
@@ -14,7 +17,30 @@ public class Main {
     public static void main(String[] args){
 //        useMathEquation();
 //        useCalculatorBase();
+        // useCalculateHelper();
 
+        String[] statements = {
+                "add 25.0 95.36",
+                "power 5.0 2.0"
+        };
+
+        DynamicHelper helper = new DynamicHelper(new MathProcessing[]{
+                new Adder(),
+                new Subtracter(),
+                new Divider(),
+                new Multiplier(),
+                new PowerOf()
+        });
+
+        for (String statement:
+                statements) {
+            System.out.println("Processing '" + statement + "' gives: ");
+            System.out.println(helper.process(statement));
+        }
+
+    }
+
+    static void useCalculateHelper(){
         String[] statements ={
                 "add 1.0",                  // Error: Incorrect number of values
                 "add xx 25.0",              // Error: non numeric data
@@ -28,7 +54,7 @@ public class Main {
         CalculateHelper calculateHelper = new CalculateHelper();
 
         for (String stmt:
-             statements) {
+                statements) {
             try {
                 calculateHelper.process(stmt);
                 System.out.println(calculateHelper);
@@ -38,9 +64,6 @@ public class Main {
                     System.out.println("    Original Exception: " + e.getCause().getMessage());
             }
         }
-
-
-
     }
 
 //    public static MathEquation create(double leftVal, double rightVal, char opCode){

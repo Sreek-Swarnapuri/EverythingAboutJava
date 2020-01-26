@@ -7,10 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="721805ae-5075-4181-a040-b62452a8ce8b" name="Default Changelist" comment="Updated CalcEngine with Switch, loops and arrays">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/pluralsight/calengine/DynamicHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/pluralsight/calengine/MathProcessing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/pluralsight/calengine/PowerOf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/pluralsight/calengine/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/pluralsight/application/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/pluralsight/calengine/MathCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/pluralsight/calengine/MathCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/pluralsight/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/pluralsight/application/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/pluralsight/calengine/Adder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/pluralsight/calengine/Adder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/pluralsight/calengine/Divider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/pluralsight/calengine/Divider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/pluralsight/calengine/Multiplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/pluralsight/calengine/Multiplier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/pluralsight/calengine/Subtracter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/pluralsight/calengine/Subtracter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -175,10 +181,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Updated CalcEngine with Switch, loops and arrays" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="4562" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1578507038356">
+    <state x="4562" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1580012830030">
       <screen x="3840" y="0" width="1920" height="1050" />
     </state>
-    <state x="4562" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1578507038356" />
+    <state x="4562" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1580012830030" />
     <state x="559" y="161" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1578736611605">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -192,25 +198,25 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="349" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1578135176252" />
-    <state width="1922" height="343" key="GridCell.Tab.0.bottom" timestamp="1578735591450">
+    <state width="1922" height="355" key="GridCell.Tab.0.bottom" timestamp="1580012870408">
       <screen x="3840" y="0" width="1920" height="1050" />
     </state>
-    <state width="1922" height="343" key="GridCell.Tab.0.bottom/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1578735591450" />
+    <state width="1922" height="355" key="GridCell.Tab.0.bottom/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1580012870408" />
     <state width="1537" height="204" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1578220599982" />
-    <state width="1922" height="343" key="GridCell.Tab.0.center" timestamp="1578735591450">
+    <state width="1922" height="355" key="GridCell.Tab.0.center" timestamp="1580012870408">
       <screen x="3840" y="0" width="1920" height="1050" />
     </state>
-    <state width="1922" height="343" key="GridCell.Tab.0.center/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1578735591450" />
+    <state width="1922" height="355" key="GridCell.Tab.0.center/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1580012870408" />
     <state width="1537" height="204" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1578220599982" />
-    <state width="1922" height="343" key="GridCell.Tab.0.left" timestamp="1578735591450">
+    <state width="1922" height="355" key="GridCell.Tab.0.left" timestamp="1580012870408">
       <screen x="3840" y="0" width="1920" height="1050" />
     </state>
-    <state width="1922" height="343" key="GridCell.Tab.0.left/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1578735591450" />
+    <state width="1922" height="355" key="GridCell.Tab.0.left/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1580012870408" />
     <state width="1537" height="204" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1578220599982" />
-    <state width="1922" height="343" key="GridCell.Tab.0.right" timestamp="1578735591450">
+    <state width="1922" height="355" key="GridCell.Tab.0.right" timestamp="1580012870408">
       <screen x="3840" y="0" width="1920" height="1050" />
     </state>
-    <state width="1922" height="343" key="GridCell.Tab.0.right/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1578735591450" />
+    <state width="1922" height="355" key="GridCell.Tab.0.right/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1580012870408" />
     <state width="1537" height="204" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1578220599982" />
     <state x="244" y="0" key="SettingsEditor" timestamp="1578736630699">
       <screen x="0" y="0" width="1536" height="834" />
@@ -221,10 +227,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="262" y="86" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1578137906763" />
-    <state x="4966" y="413" key="com.intellij.ide.util.TipDialog" timestamp="1578734972785">
+    <state x="4966" y="413" key="com.intellij.ide.util.TipDialog" timestamp="1580012023637">
       <screen x="3840" y="0" width="1920" height="1050" />
     </state>
-    <state x="4966" y="413" key="com.intellij.ide.util.TipDialog/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1578734972785" />
+    <state x="4966" y="413" key="com.intellij.ide.util.TipDialog/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1580012023637" />
     <state x="400" y="194" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1578023545918" />
+    <state x="400" y="80" width="737" height="674" key="find.popup" timestamp="1579935124457">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="400" y="80" width="737" height="674" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1579935124457" />
   </component>
 </project>
