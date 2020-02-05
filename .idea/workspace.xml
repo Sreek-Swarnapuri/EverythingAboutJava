@@ -7,10 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="721805ae-5075-4181-a040-b62452a8ce8b" name="Default Changelist" comment="Updated CalcEngine with Switch, loops and arrays">
-      <change afterPath="$PROJECT_DIR$/src/string/ComparingTwoStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/CollectionConcepts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/utilclasses/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EverythingAboutJava/collections/map/HashMapUsage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collections/map/HashMapUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/maps/HashMapUsage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +38,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -46,13 +46,13 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
-  <component name="RunManager" selected="Application.ComparingTwoStrings">
-    <configuration name="CalcEngine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="projects.pluralsight.calengine.CalcEngine" />
+  <component name="RunManager" selected="Application.CollectionConcepts">
+    <configuration name="CollectionConcepts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.CollectionConcepts" />
       <module name="EverythingAboutJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="projects.pluralsight.calengine.*" />
+          <option name="PATTERN" value="collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CollectionConcepts" />
         <item itemvalue="Application.ComparingTwoStrings" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.CalcEngine" />
       </list>
     </recent_temporary>
   </component>
@@ -176,10 +176,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Updated CalcEngine with Switch, loops and arrays" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="4562" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1580012830030">
+    <state x="4562" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1580649183952">
       <screen x="3840" y="0" width="1920" height="1050" />
     </state>
-    <state x="4562" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1580012830030" />
+    <state x="4562" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1580649183952" />
     <state x="559" y="161" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1578736611605">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -193,25 +193,25 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="349" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1578135176252" />
-    <state width="1922" height="243" key="GridCell.Tab.0.bottom" timestamp="1580499042767">
+    <state width="1922" height="283" key="GridCell.Tab.0.bottom" timestamp="1580650762601">
       <screen x="3840" y="0" width="1920" height="1050" />
     </state>
-    <state width="1922" height="243" key="GridCell.Tab.0.bottom/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1580499042767" />
+    <state width="1922" height="283" key="GridCell.Tab.0.bottom/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1580650762601" />
     <state width="1537" height="204" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1578220599982" />
-    <state width="1922" height="243" key="GridCell.Tab.0.center" timestamp="1580499042767">
+    <state width="1922" height="283" key="GridCell.Tab.0.center" timestamp="1580650762601">
       <screen x="3840" y="0" width="1920" height="1050" />
     </state>
-    <state width="1922" height="243" key="GridCell.Tab.0.center/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1580499042767" />
+    <state width="1922" height="283" key="GridCell.Tab.0.center/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1580650762601" />
     <state width="1537" height="204" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1578220599982" />
-    <state width="1922" height="243" key="GridCell.Tab.0.left" timestamp="1580499042767">
+    <state width="1922" height="283" key="GridCell.Tab.0.left" timestamp="1580650762600">
       <screen x="3840" y="0" width="1920" height="1050" />
     </state>
-    <state width="1922" height="243" key="GridCell.Tab.0.left/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1580499042767" />
+    <state width="1922" height="283" key="GridCell.Tab.0.left/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1580650762600" />
     <state width="1537" height="204" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1578220599982" />
-    <state width="1922" height="243" key="GridCell.Tab.0.right" timestamp="1580499042767">
+    <state width="1922" height="283" key="GridCell.Tab.0.right" timestamp="1580650762601">
       <screen x="3840" y="0" width="1920" height="1050" />
     </state>
-    <state width="1922" height="243" key="GridCell.Tab.0.right/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1580499042767" />
+    <state width="1922" height="283" key="GridCell.Tab.0.right/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1580650762601" />
     <state width="1537" height="204" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1578220599982" />
     <state x="244" y="0" key="SettingsEditor" timestamp="1578736630699">
       <screen x="0" y="0" width="1536" height="834" />
@@ -222,11 +222,15 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="262" y="86" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1578137906763" />
-    <state x="4966" y="413" key="com.intellij.ide.util.TipDialog" timestamp="1580498294331">
+    <state x="4966" y="413" key="com.intellij.ide.util.TipDialog" timestamp="1580632205674">
       <screen x="3840" y="0" width="1920" height="1050" />
     </state>
-    <state x="4966" y="413" key="com.intellij.ide.util.TipDialog/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1580498294331" />
+    <state x="4966" y="413" key="com.intellij.ide.util.TipDialog/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1580632205674" />
     <state x="400" y="194" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1578023545918" />
+    <state x="4429" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580649146599">
+      <screen x="3840" y="0" width="1920" height="1050" />
+    </state>
+    <state x="4429" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1580649146599" />
     <state x="400" y="80" width="737" height="674" key="find.popup" timestamp="1579935124457">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
