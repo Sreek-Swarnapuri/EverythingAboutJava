@@ -27,14 +27,6 @@ public class ListsUsage {
         System.out.println(products);
 
 
-
-
-
-
-
-
-
-
         // Creating and adding products to the shipment which implements Iterable.
         Product door = new Product("Wooden Door", 35);
         Product floorPanel = new Product("Floor Panel", 25);
@@ -67,9 +59,6 @@ public class ListsUsage {
         shipment.prepare();
         System.out.println("Light Van products: " +shipment.getLightVanProducts());
         System.out.println("Heavy Van products: " +shipment.getHeavyVanProducts());
-
-
-
 
     }
 
