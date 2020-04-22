@@ -7,12 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="721805ae-5075-4181-a040-b62452a8ce8b" name="Default Changelist" comment="Updated CalcEngine with Switch, loops and arrays">
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/lists/ArrayListUsage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/lists/HashSetUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/lists/LinkedListUsage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EverythingAboutJava/string/C01_StringSharing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/lists/ArrayListUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/lists/ArrayListUsage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/lists/HashSetUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/sets/HashSetUsage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/collections/lists/ListsUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/lists/ListsUsage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/utilclasses/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/utilclasses/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,32 +33,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1TohS7U4hNUptXmwWlVHGM4IqTI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.HashSetUsage">
+  <component name="RunManager" selected="Application.LinkedListUsage">
     <configuration name="CollectionConcepts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collections.CollectionConcepts" />
       <module name="EverythingAboutJava" />
@@ -84,7 +79,20 @@
       </method>
     </configuration>
     <configuration name="HashSetUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.lists.HashSetUsage" />
+      <option name="MAIN_CLASS_NAME" value="collections.sets.HashSetUsage" />
+      <module name="EverythingAboutJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collections.sets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.lists.LinkedListUsage" />
       <module name="EverythingAboutJava" />
       <extension name="coverage">
         <pattern>
@@ -101,20 +109,7 @@
       <module name="EverythingAboutJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.lists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="projects.pluralsight.application.Main" />
-      <module name="EverythingAboutJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="projects.pluralsight.application.*" />
+          <option name="PATTERN" value="collections.sets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,25 +119,13 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedListUsage" />
         <item itemvalue="Application.HashSetUsage" />
         <item itemvalue="Application.ListsUsage" />
         <item itemvalue="Application.CollectionConcepts" />
         <item itemvalue="Application.ComparingTwoStrings" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -186,66 +169,63 @@
     <option name="LAST_COMMIT_MESSAGE" value="Updated CalcEngine with Switch, loops and arrays" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="4293" y="101" key="#Project_Structure" timestamp="1582137687461">
-      <screen x="3840" y="0" width="1920" height="1050" />
+    <state x="453" y="101" key="#Project_Structure" timestamp="1587585128287">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="4293" y="101" key="#Project_Structure/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1582137687461" />
+    <state x="453" y="101" key="#Project_Structure/0.0.1920.1050@0.0.1920.1050" timestamp="1587585128286" />
     <state x="4562" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1581567076818">
       <screen x="3840" y="0" width="1920" height="1050" />
     </state>
     <state x="4562" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1581567076818" />
-    <state x="559" y="161" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1578736611605">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="559" y="161" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.834@0.0.1536.834" timestamp="1578736611605" />
     <state x="4463" y="142" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1582137518935">
       <screen x="3840" y="0" width="1920" height="1050" />
     </state>
     <state x="4463" y="142" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1582137518935" />
-    <state x="4403" y="174" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578734900192">
-      <screen x="3840" y="0" width="1920" height="1050" />
+    <state x="744" y="420" width="431" height="215" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1587585385054">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="4403" y="174" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1578734900192" />
-    <state x="450" y="138" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.834@0.0.1536.834" timestamp="1577115282731" />
-    <state x="349" y="0" key="CommitChangelistDialog2" timestamp="1578135176252">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="349" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1578135176252" />
-    <state width="1537" height="283" key="GridCell.Tab.0.bottom" timestamp="1582225236099">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="744" y="420" width="431" height="215" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1050@0.0.1920.1050" timestamp="1587585385054" />
+    <state width="1878" height="285" key="GridCell.Tab.0.bottom" timestamp="1587587646107">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1922" height="376" key="GridCell.Tab.0.bottom/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1582138919861" />
     <state width="1537" height="283" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582225236099" />
-    <state width="1537" height="283" key="GridCell.Tab.0.center" timestamp="1582225236099">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1878" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1587587646107" />
+    <state width="1878" height="285" key="GridCell.Tab.0.center" timestamp="1587587646106">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1922" height="376" key="GridCell.Tab.0.center/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1582138919861" />
     <state width="1537" height="283" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1582225236099" />
-    <state width="1537" height="283" key="GridCell.Tab.0.left" timestamp="1582225236099">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1878" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1587587646106" />
+    <state width="1878" height="285" key="GridCell.Tab.0.left" timestamp="1587587646106">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1922" height="376" key="GridCell.Tab.0.left/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1582138919861" />
     <state width="1537" height="283" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1582225236099" />
-    <state width="1537" height="283" key="GridCell.Tab.0.right" timestamp="1582225236099">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1878" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1587587646106" />
+    <state width="1878" height="285" key="GridCell.Tab.0.right" timestamp="1587587646107">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1922" height="376" key="GridCell.Tab.0.right/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1582138919861" />
     <state width="1537" height="283" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1582225236099" />
-    <state x="4194" y="0" key="SettingsEditor" timestamp="1582137191563">
-      <screen x="3840" y="0" width="1920" height="1050" />
+    <state width="1878" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1587587646107" />
+    <state x="491" y="180" key="Maven.ArtifactSearchDialog" timestamp="1587585025116">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="491" y="180" key="Maven.ArtifactSearchDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1587585025116" />
+    <state x="354" y="0" key="SettingsEditor" timestamp="1587585105213">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="4194" y="0" key="SettingsEditor/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1582137191563" />
-    <state x="244" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1578736630699" />
-    <state x="262" y="86" key="Vcs.Push.Dialog.v2" timestamp="1578137906763">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="262" y="86" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1578137906763" />
-    <state x="400" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1582225260630">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="354" y="0" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1587585105213" />
+    <state x="500" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1585751183210">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="800" y="328" key="com.intellij.ide.util.TipDialog/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1581040673729" />
     <state x="4785" y="301" key="com.intellij.ide.util.TipDialog/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1581619122090" />
     <state x="400" y="194" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1582225260630" />
+    <state x="500" y="244" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1585751183210" />
     <state x="4429" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580649146599">
       <screen x="3840" y="0" width="1920" height="1050" />
     </state>
@@ -258,5 +238,9 @@
       <screen x="3840" y="0" width="1920" height="1050" />
     </state>
     <state x="4067" y="153" key="new project wizard/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1581567621157" />
+    <state x="619" y="245" key="run.anything.popup" timestamp="1587587605912">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="619" y="245" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1587587605912" />
   </component>
 </project>
