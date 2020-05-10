@@ -7,14 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="721805ae-5075-4181-a040-b62452a8ce8b" name="Default Changelist" comment="Updated CalcEngine with Switch, loops and arrays">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/lists/LinkedListUsage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/queues/ArrayDequeImplementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/lists/ArrayListUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/lists/ArrayListUsage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/lists/HashSetUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/sets/HashSetUsage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/lists/ListsUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/lists/ListsUsage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/lists/LinkedListUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/lists/LinkedListUsage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/collections/lists/LinkedListUsage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/collections/lists/LinkedListUsage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +47,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.LinkedListUsage">
-    <configuration name="CollectionConcepts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.CollectionConcepts" />
+  <component name="RunManager" selected="Application.ArrayDequeImplementation">
+    <configuration name="ArrayDequeImplementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.queues.ArrayDequeImplementation" />
       <module name="EverythingAboutJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.*" />
+          <option name="PATTERN" value="collections.queues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +61,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComparingTwoStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.ComparingTwoStrings" />
+    <configuration name="CollectionConcepts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.CollectionConcepts" />
       <module name="EverythingAboutJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayDequeImplementation" />
         <item itemvalue="Application.LinkedListUsage" />
         <item itemvalue="Application.HashSetUsage" />
         <item itemvalue="Application.ListsUsage" />
         <item itemvalue="Application.CollectionConcepts" />
-        <item itemvalue="Application.ComparingTwoStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -186,30 +182,30 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="744" y="420" width="431" height="215" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1050@0.0.1920.1050" timestamp="1587585385054" />
-    <state width="1878" height="285" key="GridCell.Tab.0.bottom" timestamp="1587587646107">
+    <state width="1878" height="285" key="GridCell.Tab.0.bottom" timestamp="1589136826082">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1922" height="376" key="GridCell.Tab.0.bottom/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1582138919861" />
     <state width="1537" height="283" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582225236099" />
-    <state width="1878" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1587587646107" />
-    <state width="1878" height="285" key="GridCell.Tab.0.center" timestamp="1587587646106">
+    <state width="1878" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1589136826082" />
+    <state width="1878" height="285" key="GridCell.Tab.0.center" timestamp="1589136826082">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1922" height="376" key="GridCell.Tab.0.center/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1582138919861" />
     <state width="1537" height="283" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1582225236099" />
-    <state width="1878" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1587587646106" />
-    <state width="1878" height="285" key="GridCell.Tab.0.left" timestamp="1587587646106">
+    <state width="1878" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1589136826082" />
+    <state width="1878" height="285" key="GridCell.Tab.0.left" timestamp="1589136826082">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1922" height="376" key="GridCell.Tab.0.left/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1582138919861" />
     <state width="1537" height="283" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1582225236099" />
-    <state width="1878" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1587587646106" />
-    <state width="1878" height="285" key="GridCell.Tab.0.right" timestamp="1587587646107">
+    <state width="1878" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1589136826082" />
+    <state width="1878" height="285" key="GridCell.Tab.0.right" timestamp="1589136826082">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1922" height="376" key="GridCell.Tab.0.right/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1582138919861" />
     <state width="1537" height="283" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1582225236099" />
-    <state width="1878" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1587587646107" />
+    <state width="1878" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1589136826082" />
     <state x="491" y="180" key="Maven.ArtifactSearchDialog" timestamp="1587585025116">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -230,10 +226,6 @@
       <screen x="3840" y="0" width="1920" height="1050" />
     </state>
     <state x="4429" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1580649146599" />
-    <state x="400" y="80" width="737" height="674" key="find.popup" timestamp="1579935124457">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="400" y="80" width="737" height="674" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1579935124457" />
     <state x="4067" y="153" key="new project wizard" timestamp="1581567621157">
       <screen x="3840" y="0" width="1920" height="1050" />
     </state>

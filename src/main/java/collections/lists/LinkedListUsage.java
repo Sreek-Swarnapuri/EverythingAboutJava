@@ -48,6 +48,16 @@ public class LinkedListUsage {
         linkedListImpl.removeLastOccurrence(4);
         System.out.println(linkedListImpl);
 
+        //Using queue interface methods --->
+        // poll() and pop() to remove the first element in the linked list
+        linkedListImpl.poll();
+        System.out.println(linkedListImpl);
+        linkedListImpl.pop();
+        System.out.println(linkedListImpl);
+
+        // push()
+        
+
     }
 
 }
