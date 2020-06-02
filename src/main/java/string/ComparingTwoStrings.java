@@ -25,6 +25,17 @@ public class ComparingTwoStrings {
         System.out.println(Integer.toHexString(System.identityHashCode(s2)));
         System.out.println(Integer.toHexString(System.identityHashCode(s3)));
 
+        //If we are comparing strings frequently, we can use .intern() method to get the internal rep of String
+        //Using this we can use shallow comparison to compare two strings as they would point to the same ref
+        String string1 = "I love Java";
+        String string2 = "I love";
+        string2 += " Java";
+        System.out.println("string1: " + string1);
+        System.out.println("string2: " + string2);
+        String string3 = string1.intern();
+        String string4 = string2.intern();
+        System.out.println("string3==string4: "+ (string3==string4));
+
     }
 
 }
