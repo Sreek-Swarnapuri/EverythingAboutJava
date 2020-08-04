@@ -48,6 +48,15 @@ public class StringFormatting {
         System.out.println(String.format("%(d",b));
         System.out.println(String.format("% (d",a));
 
+        //we can use argument index format specifier to specify which element belongs to which argument in the order of specified string
+        int i1 = 100, i2 = 200, i3 = 300;
+        //If we don't provide any arg index, it will take the order as is.
+        System.out.println(String.format("%d %d %d", i1,i2,i3));
+        //if we provide an index followed by $, it picks out the element based on the index for that item in the string
+        System.out.println(String.format("%3$d %1$d %2$d", i1,i2,i3));
+        //if we provide an < index, it picks out the element based on the prior item for that item in the string
+        System.out.println(String.format("%2$d %<d %3$d", i1,i2,i3));
+
 
     }
 
