@@ -10,15 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="721805ae-5075-4181-a040-b62452a8ce8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/streams/BinaryStreams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/streams/Helper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/streams/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/streams/MyAutoCloseable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/streams/TextStreams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/understandingtime/TimeUsage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/file1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myData.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/streams/zipfileutility/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/string/StringFormatting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/StringFormatting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/streams/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/streams/Helper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +49,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -62,13 +59,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="ComparingTwoStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.ComparingTwoStrings" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.zipfileutility.Main" />
       <module name="EverythingAboutJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="streams.zipfileutility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.TimeUsage" />
         <item itemvalue="Application.StringFormatting" />
         <item itemvalue="Application.StringBuilderUsage" />
-        <item itemvalue="Application.ComparingTwoStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -189,6 +186,7 @@
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added another class in looping package - DoWhileLoop.java" />
     <MESSAGE value="Added another class in looping package - ForLoop.java" />
     <MESSAGE value="Updated CalcEngine with Switch, loops and arrays" />
@@ -208,26 +206,46 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1128" y="269" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1594830464614" />
-    <state width="1878" height="283" key="GridCell.Tab.0.bottom" timestamp="1596559365459">
+    <state width="1878" height="283" key="GridCell.Tab.0.bottom" timestamp="1598898817720">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1878" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1596559365459" />
-    <state width="1878" height="283" key="GridCell.Tab.0.center" timestamp="1596559365458">
+    <state width="1878" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1598898817720" />
+    <state width="1878" height="283" key="GridCell.Tab.0.center" timestamp="1598898817720">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1878" height="283" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1596559365458" />
-    <state width="1878" height="283" key="GridCell.Tab.0.left" timestamp="1596559365458">
+    <state width="1878" height="283" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1598898817720" />
+    <state width="1878" height="283" key="GridCell.Tab.0.left" timestamp="1598898817720">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1878" height="283" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1596559365458" />
-    <state width="1878" height="283" key="GridCell.Tab.0.right" timestamp="1596559365458">
+    <state width="1878" height="283" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1598898817720" />
+    <state width="1878" height="283" key="GridCell.Tab.0.right" timestamp="1598898817720">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1878" height="283" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1596559365458" />
+    <state width="1878" height="283" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1598898817720" />
+    <state width="1878" height="352" key="GridCell.Tab.1.bottom" timestamp="1597774530849">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1878" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1597774530849" />
+    <state width="1878" height="352" key="GridCell.Tab.1.center" timestamp="1597774530849">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1878" height="352" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1597774530849" />
+    <state width="1878" height="352" key="GridCell.Tab.1.left" timestamp="1597774530849">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1878" height="352" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1597774530849" />
+    <state width="1878" height="352" key="GridCell.Tab.1.right" timestamp="1597774530849">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1878" height="352" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1597774530849" />
     <state x="559" y="258" width="1286" height="532" key="Vcs.Push.Dialog.v2" timestamp="1591605036432">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="559" y="258" width="1286" height="532" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1591605036432" />
+    <state x="670" y="257" width="579" height="534" key="find.popup" timestamp="1598898711747">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="670" y="257" width="579" height="534" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1598898711747" />
     <state x="771" y="189" key="new project wizard" timestamp="1591378719814">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
