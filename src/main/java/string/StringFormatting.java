@@ -56,8 +56,6 @@ public class StringFormatting {
         System.out.println(String.format("%3$d %1$d %2$d", i1,i2,i3));
         //if we provide an < index, it picks out the element based on the prior item for that item in the string
         System.out.println(String.format("%2$d %<d %3$d", i1,i2,i3));
-
-
     }
 
 }
