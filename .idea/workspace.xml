@@ -10,12 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="721805ae-5075-4181-a040-b62452a8ce8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/lists/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/string/StringJoinerUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/string/StringRegex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/lists/ArrayListUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/lists/ArrayListUsage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/string/StringFormatting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/StringFormatting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/collections/lists/ArrayListUsage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/collections/lists/ArrayListUsage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/string/StringJoinerUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/StringJoinerUsage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +45,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/OneDrive/Projects/beldungJava/tutorials/core-java-modules/core-java-jvm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.ArrayListUsage">
+  <component name="RunManager" selected="Application.StringRegex">
     <configuration name="ArrayListUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collections.lists.ArrayListUsage" />
       <module name="EverythingAboutJava" />
@@ -67,25 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.zipfileutility.Main" />
+    <configuration name="ComparingTwoStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.ComparingTwoStrings" />
       <module name="EverythingAboutJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="streams.zipfileutility.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.Main" />
-      <module name="EverythingAboutJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="streams.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,19 +103,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringRegex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.StringRegex" />
+      <module name="EverythingAboutJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayListUsage" />
-        <item itemvalue="Application.StringJoinerUsage" />
+        <item itemvalue="Application.StringRegex" />
         <item itemvalue="Application.StringFormatting" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.StringJoinerUsage" />
+        <item itemvalue="Application.ComparingTwoStrings" />
+        <item itemvalue="Application.ArrayListUsage" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\Sreek\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -176,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591605029464</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added implementation for String Builder and string comparison">
+      <created>1609166117237</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609166117237</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
