@@ -1,5 +1,8 @@
 package collections.lists;
 
+import lombok.Getter;
+
+@Getter
 public class MyClass {
 
     String name;

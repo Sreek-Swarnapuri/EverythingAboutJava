@@ -10,9 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="721805ae-5075-4181-a040-b62452a8ce8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/string/StringRegex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/CollectionConversions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/LambdaExpressions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/string/StringJoinerUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/StringJoinerUsage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EverythingAboutJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EverythingAboutJava.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/lists/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/lists/MyClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/maps/HashMapUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/maps/HashMapUsage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,18 +51,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/OneDrive/Projects/beldungJava/tutorials/core-java-modules/core-java-jvm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.StringRegex">
-    <configuration name="ArrayListUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.lists.ArrayListUsage" />
+  <component name="RunManager" selected="Application.HashMapUsage">
+    <configuration name="CollectionConversions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.CollectionConversions" />
       <module name="EverythingAboutJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.lists.*" />
+          <option name="PATTERN" value="collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +70,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComparingTwoStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.ComparingTwoStrings" />
+    <configuration name="HashMapUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.maps.HashMapUsage" />
       <module name="EverythingAboutJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="collections.maps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaExpressions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.LambdaExpressions" />
+      <module name="EverythingAboutJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,19 +98,6 @@
     </configuration>
     <configuration name="StringFormatting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.StringFormatting" />
-      <module name="EverythingAboutJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringJoinerUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.StringJoinerUsage" />
       <module name="EverythingAboutJava" />
       <extension name="coverage">
         <pattern>
@@ -118,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashMapUsage" />
+        <item itemvalue="Application.CollectionConversions" />
+        <item itemvalue="Application.LambdaExpressions" />
         <item itemvalue="Application.StringRegex" />
         <item itemvalue="Application.StringFormatting" />
-        <item itemvalue="Application.StringJoinerUsage" />
-        <item itemvalue="Application.ComparingTwoStrings" />
-        <item itemvalue="Application.ArrayListUsage" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609166117237</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="New String Joiner Usage, Added String regex usage">
+      <created>1609855914612</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609855914612</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -189,6 +202,11 @@
     <MESSAGE value="Added another class in looping package - ForLoop.java" />
     <MESSAGE value="Updated CalcEngine with Switch, loops and arrays" />
     <MESSAGE value="added implementation for String Builder and string comparison" />
-    <option name="LAST_COMMIT_MESSAGE" value="added implementation for String Builder and string comparison" />
+    <MESSAGE value="New String Joiner Usage, Added String regex usage" />
+    <option name="LAST_COMMIT_MESSAGE" value="New String Joiner Usage, Added String regex usage" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

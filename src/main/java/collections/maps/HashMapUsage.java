@@ -103,10 +103,11 @@ public class HashMapUsage {
 
         Map<String,String> husbandWifeMapping = new HashMap<>();
 
-        husbandWifeMapping.put("Raghu","Ashwini");
+        husbandWifeMapping.put("Tom","Jill");
         husbandWifeMapping.put("Chris","Lisa");
-        husbandWifeMapping.put("Chiru","Niharika");
+        husbandWifeMapping.put("Patrick","Nino");
         husbandWifeMapping.put("Josh","Linda");
+        husbandWifeMapping.put("Sreekar","Vandana");
 
         System.out.println("Husband Wife mapping: " + husbandWifeMapping);
 
@@ -131,7 +132,13 @@ public class HashMapUsage {
         else
             System.out.println("Removed David and his wife from the mapping");
 
+        //Looping through each couple:
+        System.out.println("Looping through each couple:");
+        husbandWifeMapping.forEach( (h,w) -> System.out.println(h + " is married to " + w ));
 
+        System.out.println("Upper casing names of wives:");
+        husbandWifeMapping.replaceAll((h,w) -> (w.toUpperCase()) );
+        husbandWifeMapping.forEach( (h,w) -> System.out.println(h + " is married to " + w ));
 
     }
 
