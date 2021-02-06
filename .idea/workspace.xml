@@ -10,11 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="721805ae-5075-4181-a040-b62452a8ce8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/default.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/appExecutionAndEnvironment/properties/WorkingWithDefaultProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/appExecutionAndEnvironment/properties/ExecutionEnvironmentInformation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/appExecutionAndEnvironment/WorkingWithProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/appExecutionAndEnvironment/properties/WorkingWithProperties.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +59,24 @@
       <recent name="C:\Users\Sreek\Documents\Projects\EverythingAboutJava\src\main\java\appExecutionAndEnvironment\properties" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WorkingWithDefaultProperties">
+  <component name="RunManager" selected="Application.ExecutionEnvironmentInformation">
     <configuration name="CommandLineParameterProcessing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="appExecutionAndEnvironment.CommandLineParameterProcessing" />
       <module name="EverythingAboutJava" />
       <option name="PROGRAM_PARAMETERS" value="Test1 Test2 Test3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="appExecutionAndEnvironment.properties.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExecutionEnvironmentInformation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="appExecutionAndEnvironment.properties.ExecutionEnvironmentInformation" />
+      <module name="EverythingAboutJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="appExecutionAndEnvironment.properties.*" />
@@ -84,19 +94,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="appExecutionAndEnvironment.properties.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringRegex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.StringRegex" />
-      <module name="EverythingAboutJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,18 +129,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.CommandLineParameterProcessing" />
-      <item itemvalue="Application.StringRegex" />
       <item itemvalue="Application.PassingFileNamesAsArguments" />
       <item itemvalue="Application.WorkingWithProperties" />
       <item itemvalue="Application.WorkingWithDefaultProperties" />
+      <item itemvalue="Application.ExecutionEnvironmentInformation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExecutionEnvironmentInformation" />
         <item itemvalue="Application.WorkingWithDefaultProperties" />
         <item itemvalue="Application.WorkingWithProperties" />
         <item itemvalue="Application.PassingFileNamesAsArguments" />
         <item itemvalue="Application.CommandLineParameterProcessing" />
-        <item itemvalue="Application.StringRegex" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612616160496</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Demonstrate working with Default properties">
+      <created>1612619951571</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1612619951571</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -277,7 +281,8 @@
     <MESSAGE value="Added a class to print lines in the file name passed as an argument. Demonstrates how to use double quotes when passing a file name with spaces in between." />
     <MESSAGE value="Writing to and Loading from a properties file" />
     <MESSAGE value="Added functionality to Add properties via xml format" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added functionality to Add properties via xml format" />
+    <MESSAGE value="Demonstrate working with Default properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="Demonstrate working with Default properties" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
