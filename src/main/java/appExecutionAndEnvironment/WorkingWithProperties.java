@@ -1,5 +1,7 @@
 package appExecutionAndEnvironment;
 
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.io.Reader;
 import java.io.Writer;
 import java.nio.file.Files;
@@ -57,6 +59,27 @@ public class WorkingWithProperties {
         //Additionally we can use = or whitespace or : in the value
         //val5=using equals \= in the value and \:
         System.out.println("Val5: " + properties.getProperty("val5"));
+
+        //XML properties file
+        //can be loaded from or stored to xml files
+        properties = new Properties();
+        properties.setProperty("displayName","Sreekar Swarnapuri");
+        properties.setProperty("accountNumber","987-65-4321");
+
+        //We can use the root path and just give the name as xyz.properties which will create the properties
+        // file in the root directory
+        try(OutputStream out = Files.newOutputStream(Paths.get("src/main/resources/properties.xml"))){
+            properties.storeToXML(out,"My First Properties file");
+        } catch (Exception e) {
+            System.out.println(e.getClass().getSimpleName() + " - " + e.getMessage());
+        }
+
+        //Loading the properties file from a Simple text file
+        try(InputStream in = Files.newInputStream(Paths.get("src/main/resources/properties.xml"))){
+            properties.loadFromXML(in);
+        } catch (Exception e) {
+            System.out.println(e.getClass().getSimpleName() + " - " + e.getMessage());
+        }
 
     }
 

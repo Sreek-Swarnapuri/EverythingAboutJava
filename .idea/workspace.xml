@@ -9,12 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="721805ae-5075-4181-a040-b62452a8ce8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/appExecutionAndEnvironment/WorkingWithProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/myapp.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/xyz.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xyz.properties" afterDir="false" />
+    <list default="true" id="721805ae-5075-4181-a040-b62452a8ce8b" name="Default Changelist" comment="Writing to and Loading from a properties file">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/properties.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/appExecutionAndEnvironment/WorkingWithProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/appExecutionAndEnvironment/WorkingWithProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/xyz.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/xyz.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612587279989</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Writing to and Loading from a properties file">
+      <created>1612598299119</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1612598299119</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -256,7 +262,8 @@
     <MESSAGE value="Added SortedMapUsage.java to demonstrate Sorted Map interface using TreeMap" />
     <MESSAGE value="Added a class to show how command line processing works. This has been worked from IDE where the arguments are sent when running the main class" />
     <MESSAGE value="Added a class to print lines in the file name passed as an argument. Demonstrates how to use double quotes when passing a file name with spaces in between." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a class to print lines in the file name passed as an argument. Demonstrates how to use double quotes when passing a file name with spaces in between." />
+    <MESSAGE value="Writing to and Loading from a properties file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Writing to and Loading from a properties file" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
