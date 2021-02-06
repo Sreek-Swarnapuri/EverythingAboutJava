@@ -10,10 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="721805ae-5075-4181-a040-b62452a8ce8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/multiple part file name.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/appExecutionAndEnvironment/PassingFileNamesAsArguments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/appExecutionAndEnvironment/WorkingWithProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/myapp.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/xyz.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xyz.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +57,7 @@
       <recent name="C:\Users\Sreek\Documents\Projects\EverythingAboutJava" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PassingFileNamesAsArguments">
+  <component name="RunManager" selected="Application.WorkingWithProperties">
     <configuration name="CommandLineParameterProcessing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="appExecutionAndEnvironment.CommandLineParameterProcessing" />
       <module name="EverythingAboutJava" />
@@ -64,19 +65,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="appExecutionAndEnvironment.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LambdaExpressions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.LambdaExpressions" />
-      <module name="EverythingAboutJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,20 +112,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WorkingWithProperties" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="appExecutionAndEnvironment.WorkingWithProperties" />
+      <module name="EverythingAboutJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="appExecutionAndEnvironment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.CommandLineParameterProcessing" />
-      <item itemvalue="Application.LambdaExpressions" />
       <item itemvalue="Application.SortedMapUsage" />
       <item itemvalue="Application.StringRegex" />
       <item itemvalue="Application.PassingFileNamesAsArguments" />
+      <item itemvalue="Application.WorkingWithProperties" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WorkingWithProperties" />
         <item itemvalue="Application.PassingFileNamesAsArguments" />
         <item itemvalue="Application.CommandLineParameterProcessing" />
         <item itemvalue="Application.StringRegex" />
         <item itemvalue="Application.SortedMapUsage" />
-        <item itemvalue="Application.LambdaExpressions" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612586041951</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added a class to print lines in the file name passed as an argument. Demonstrates how to use double quotes when passing a file name with spaces in between.">
+      <created>1612587279989</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1612587279989</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,7 +255,8 @@
     <MESSAGE value="Updates to several collection classes." />
     <MESSAGE value="Added SortedMapUsage.java to demonstrate Sorted Map interface using TreeMap" />
     <MESSAGE value="Added a class to show how command line processing works. This has been worked from IDE where the arguments are sent when running the main class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a class to show how command line processing works. This has been worked from IDE where the arguments are sent when running the main class" />
+    <MESSAGE value="Added a class to print lines in the file name passed as an argument. Demonstrates how to use double quotes when passing a file name with spaces in between." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a class to print lines in the file name passed as an argument. Demonstrates how to use double quotes when passing a file name with spaces in between." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
