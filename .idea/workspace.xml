@@ -10,16 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="721805ae-5075-4181-a040-b62452a8ce8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/logging/BasicLogCalls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/logging/BasicLogCallsSimplified.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/logging/LoggingLevelFINE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/logging/LoggingLevels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/logging/LoggingMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/logging/LoggingToConsole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/logging/LoggingUsingConfigFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/logging/LoggingViaFileHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +102,7 @@
     <configuration name="LoggingUsingConfigFile" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="logging.LoggingUsingConfigFile" />
       <module name="EverythingAboutJava" />
-      <option name="PROGRAM_PARAMETERS" value="-Djava.util.logging.config.file=src/main/resources/log.properties" />
+      <option name="PROGRAM_PARAMETERS" value="-Djava.util.logging.config.file=C:\Users\Sreek\Documents\Projects\EverythingAboutJava\src\main\resources\log.properties" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="logging.*" />
@@ -282,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612621540328</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Demonstration of Logging usage via basic calls, log levels, log methods, handlers, formatters etc.">
+      <created>1612754595366</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1612754595366</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -312,7 +311,8 @@
     <MESSAGE value="Added functionality to Add properties via xml format" />
     <MESSAGE value="Demonstrate working with Default properties" />
     <MESSAGE value="Demonstration of execution environment information like system properties or Environment Variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="Demonstration of execution environment information like system properties or Environment Variables" />
+    <MESSAGE value="Demonstration of Logging usage via basic calls, log levels, log methods, handlers, formatters etc." />
+    <option name="LAST_COMMIT_MESSAGE" value="Demonstration of Logging usage via basic calls, log levels, log methods, handlers, formatters etc." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
