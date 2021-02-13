@@ -10,8 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="721805ae-5075-4181-a040-b62452a8ce8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/SingleThreading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/MultiThreading/f1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/MultiThreading/f2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/multithreading/SingleThreading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multithreading/SingleThreading.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +61,7 @@
       <recent name="C:\Users\Sreek\Documents\Projects\EverythingAboutJava\src\main\java\appExecutionAndEnvironment\properties" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LoggingUsingConfigFile">
+  <component name="RunManager" selected="Application.SingleThreading">
     <configuration name="LoggingLevelFINE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="logging.LoggingLevelFINE" />
       <module name="EverythingAboutJava" />
@@ -126,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleLogCalling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="logging.SimpleLogCalling" />
+    <configuration name="SingleThreading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.SingleThreading" />
       <module name="EverythingAboutJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="logging.BasicLogCallsSimplified" />
+          <option name="PATTERN" value="multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,19 +143,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.LoggingUsingConfigFile" />
-      <item itemvalue="Application.SimpleLogCalling" />
       <item itemvalue="Application.LoggingLevels" />
       <item itemvalue="Application.LoggingLevelFINE" />
       <item itemvalue="Application.LoggingMethods" />
       <item itemvalue="Application.LoggingViaFileHandler" />
+      <item itemvalue="Application.SingleThreading" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingleThreading" />
         <item itemvalue="Application.LoggingViaFileHandler" />
         <item itemvalue="Application.LoggingMethods" />
         <item itemvalue="Application.LoggingLevelFINE" />
         <item itemvalue="Application.LoggingLevels" />
-        <item itemvalue="Application.SimpleLogCalling" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612754595366</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Started a package for MultiThreading">
+      <created>1613066707195</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1613066707195</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -312,7 +321,8 @@
     <MESSAGE value="Demonstrate working with Default properties" />
     <MESSAGE value="Demonstration of execution environment information like system properties or Environment Variables" />
     <MESSAGE value="Demonstration of Logging usage via basic calls, log levels, log methods, handlers, formatters etc." />
-    <option name="LAST_COMMIT_MESSAGE" value="Demonstration of Logging usage via basic calls, log levels, log methods, handlers, formatters etc." />
+    <MESSAGE value="Started a package for MultiThreading" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started a package for MultiThreading" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
