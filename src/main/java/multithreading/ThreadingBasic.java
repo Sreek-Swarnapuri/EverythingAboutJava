@@ -12,7 +12,7 @@ import java.nio.file.Paths;
 import java.time.Duration;
 import java.time.Instant;
 
-public class SingleThreading {
+public class ThreadingBasic {
 
     public static void main(String[] args) {
 
@@ -31,17 +31,24 @@ public class SingleThreading {
                 , "src/main/resources/MultiThreading/f4_out.txt"
                 , "src/main/resources/MultiThreading/f5_out.txt"
                 , "src/main/resources/MultiThreading/f6_out.txt"};
-
-        try {
-            for (int i = 0; i < inFiles.length; i++) {
-                Adder adder = new Adder(inFiles[i],outFiles[i]);
-                adder.doAdd();
-            }
-        } catch (IOException e) {
-            System.out.println(e.getClass().getSimpleName() + ":" + e.getMessage());
+        Thread[] threads = new Thread[inFiles.length];
+        for (int i = 0; i < inFiles.length; i++) {
+            AdderWithThreading adder = new AdderWithThreading(inFiles[i], outFiles[i]);
+            threads[i] = new Thread(adder);
+            threads[i].start();
         }
-        //Takes 13 milliseconds which is 3ms slower than MultiThreading
-        System.out.println("Elapsed Time(MilliSeconds): " + (Duration.between(start, Instant.now()).toMillis() ));
+
+        for (Thread th:
+             threads) {
+            try {
+                th.join();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+
+        //Takes 10 milliseconds which is 3ms faster than SingleThreading
+        System.out.println("Elapsed Time(MilliSeconds): " + (Duration.between(start,Instant.now()).toMillis() ));
 
     }
 
@@ -50,7 +57,7 @@ public class SingleThreading {
 @AllArgsConstructor
 @Getter
 @Setter
-class Adder {
+class AdderWithThreading implements Runnable {
 
     private String inFile, outFile;
 
@@ -62,8 +69,17 @@ class Adder {
                 total++;
         }
 
-        try(BufferedWriter writer = Files.newBufferedWriter(Paths.get(outFile))) {
+        try (BufferedWriter writer = Files.newBufferedWriter(Paths.get(outFile))) {
             writer.write(String.valueOf(total));
+        }
+    }
+
+    @Override
+    public void run() {
+        try {
+            doAdd();
+        } catch (IOException e) {
+            System.out.println(e.getClass().getSimpleName() + ":" + e.getMessage());
         }
     }
 }

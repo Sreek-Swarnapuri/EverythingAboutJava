@@ -10,8 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="721805ae-5075-4181-a040-b62452a8ce8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/MultiThreading/f1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/MultiThreading/f2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/ThreadingBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/MultiThreading/f3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/MultiThreading/f3_out.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/MultiThreading/f4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/MultiThreading/f4_out.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/MultiThreading/f5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/MultiThreading/f5_out.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/MultiThreading/f6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/MultiThreading/f6_out.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/multithreading/SingleThreading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multithreading/SingleThreading.java" afterDir="false" />
     </list>
@@ -45,7 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/MultiThreading" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -53,6 +60,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sreek\Documents\Projects\EverythingAboutJava\src\main\resources\MultiThreading" />
       <recent name="C:\Users\Sreek\Documents\Projects\EverythingAboutJava" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -61,22 +69,9 @@
       <recent name="C:\Users\Sreek\Documents\Projects\EverythingAboutJava\src\main\java\appExecutionAndEnvironment\properties" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SingleThreading">
+  <component name="RunManager" selected="Application.ThreadingBasic">
     <configuration name="LoggingLevelFINE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="logging.LoggingLevelFINE" />
-      <module name="EverythingAboutJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="logging.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoggingLevels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="logging.LoggingLevels" />
       <module name="EverythingAboutJava" />
       <extension name="coverage">
         <pattern>
@@ -141,21 +136,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadingBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadingBasic" />
+      <module name="EverythingAboutJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.LoggingUsingConfigFile" />
-      <item itemvalue="Application.LoggingLevels" />
       <item itemvalue="Application.LoggingLevelFINE" />
       <item itemvalue="Application.LoggingMethods" />
       <item itemvalue="Application.LoggingViaFileHandler" />
       <item itemvalue="Application.SingleThreading" />
+      <item itemvalue="Application.ThreadingBasic" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadingBasic" />
         <item itemvalue="Application.SingleThreading" />
         <item itemvalue="Application.LoggingViaFileHandler" />
         <item itemvalue="Application.LoggingMethods" />
         <item itemvalue="Application.LoggingLevelFINE" />
-        <item itemvalue="Application.LoggingLevels" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613066707195</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Added a single Threaded application class">
+      <created>1613236982830</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1613236982830</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -322,7 +337,8 @@
     <MESSAGE value="Demonstration of execution environment information like system properties or Environment Variables" />
     <MESSAGE value="Demonstration of Logging usage via basic calls, log levels, log methods, handlers, formatters etc." />
     <MESSAGE value="Started a package for MultiThreading" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started a package for MultiThreading" />
+    <MESSAGE value="Added a single Threaded application class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a single Threaded application class" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
