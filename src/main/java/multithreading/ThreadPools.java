@@ -39,7 +39,7 @@ public class ThreadPools {
         ExecutorService es = Executors.newFixedThreadPool(6);
 
         for (int i = 0; i < inFiles.length; i++) {
-            AdderWithThreadPools adder = new AdderWithThreadPools(inFiles[i], outFiles[i]);
+            AdderWithThreading adder= new AdderWithThreading(inFiles[i], outFiles[i]);
             es.submit(adder);
         }
 
@@ -56,34 +56,4 @@ public class ThreadPools {
 
     }
 
-}
-
-@AllArgsConstructor
-@Getter
-@Setter
-class AdderWithThreadPools implements Runnable {
-
-    private String inFile, outFile;
-
-    public void doAdd() throws IOException {
-        int total = 0;
-        String line = null;
-        try (BufferedReader reader = Files.newBufferedReader(Paths.get(inFile))) {
-            while ((line = reader.readLine()) != null)
-                total++;
-        }
-
-        try (BufferedWriter writer = Files.newBufferedWriter(Paths.get(outFile))) {
-            writer.write(String.valueOf(total));
-        }
-    }
-
-    @Override
-    public void run() {
-        try {
-            doAdd();
-        } catch (IOException e) {
-            System.out.println(e.getClass().getSimpleName() + ":" + e.getMessage());
-        }
-    }
 }
