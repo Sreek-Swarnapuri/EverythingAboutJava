@@ -10,9 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="721805ae-5075-4181-a040-b62452a8ce8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/ThreadPoolsWithCallable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/ConcurrencyIssues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/CoordinatedConcurrency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/ManualSynchronization.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/multithreading/ThreadPools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multithreading/ThreadPools.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,33 @@
       <recent name="C:\Users\Sreek\Documents\Projects\EverythingAboutJava\src\main\java\appExecutionAndEnvironment\properties" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadPoolsWithCallable">
+  <component name="RunManager" selected="Application.ManualSynchronization">
+    <configuration name="ConcurrencyIssues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.ConcurrencyIssues" />
+      <module name="EverythingAboutJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoordinatedConcurrency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.CoordinatedConcurrency" />
+      <module name="EverythingAboutJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoggingUsingConfigFile" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="logging.LoggingUsingConfigFile" />
       <module name="EverythingAboutJava" />
@@ -76,34 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoggingViaFileHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="logging.LoggingViaFileHandler" />
-      <module name="EverythingAboutJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="logging.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingleThreading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.SingleThreading" />
-      <module name="EverythingAboutJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadPools" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadPools" />
+    <configuration name="ManualSynchronization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.ManualSynchronization" />
       <module name="EverythingAboutJava" />
       <extension name="coverage">
         <pattern>
@@ -143,19 +144,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.LoggingUsingConfigFile" />
-      <item itemvalue="Application.LoggingViaFileHandler" />
-      <item itemvalue="Application.SingleThreading" />
       <item itemvalue="Application.ThreadingBasic" />
-      <item itemvalue="Application.ThreadPools" />
       <item itemvalue="Application.ThreadPoolsWithCallable" />
+      <item itemvalue="Application.ConcurrencyIssues" />
+      <item itemvalue="Application.CoordinatedConcurrency" />
+      <item itemvalue="Application.ManualSynchronization" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ManualSynchronization" />
+        <item itemvalue="Application.CoordinatedConcurrency" />
+        <item itemvalue="Application.ConcurrencyIssues" />
         <item itemvalue="Application.ThreadPoolsWithCallable" />
         <item itemvalue="Application.ThreadingBasic" />
-        <item itemvalue="Application.SingleThreading" />
-        <item itemvalue="Application.ThreadPools" />
-        <item itemvalue="Application.LoggingViaFileHandler" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613312516615</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="MultiThreading Demonstration with ThreadPools via Callable and Future interfaces">
+      <created>1613315435772</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1613315435772</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -346,7 +354,8 @@
     <MESSAGE value="Added a single Threaded application class" />
     <MESSAGE value="MultiThreading Demonstration with time calculation" />
     <MESSAGE value="MultiThreading Demonstration with ThreadPools i.e. ExecutorService" />
-    <option name="LAST_COMMIT_MESSAGE" value="MultiThreading Demonstration with ThreadPools i.e. ExecutorService" />
+    <MESSAGE value="MultiThreading Demonstration with ThreadPools via Callable and Future interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="MultiThreading Demonstration with ThreadPools via Callable and Future interfaces" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
