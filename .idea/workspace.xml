@@ -10,9 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="721805ae-5075-4181-a040-b62452a8ce8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/RuntimeTypeInformation/AccessingClassInstance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RuntimeTypeInformation/BankAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RuntimeTypeInformation/AccessingClassInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RuntimeTypeInformation/AccessingClassInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RuntimeTypeInformation/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RuntimeTypeInformation/BankAccount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -325,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613402636846</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Created a sample class to use it for the run time information access usage">
+      <created>1613926251625</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1613926251625</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -362,7 +369,8 @@
     <MESSAGE value="MultiThreading Demonstration with ThreadPools i.e. ExecutorService" />
     <MESSAGE value="MultiThreading Demonstration with ThreadPools via Callable and Future interfaces" />
     <MESSAGE value="ConcurrencyIssues shows how issues may occur when updating single resource via Threads&#10;CoordinatedConcurrency shows how to coordinate between threads via Synchronized methods&#10;ManualSynchronization shows how to coordinate between threads via synchronized blocks instead of Synchronized methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="ConcurrencyIssues shows how issues may occur when updating single resource via Threads&#10;CoordinatedConcurrency shows how to coordinate between threads via Synchronized methods&#10;ManualSynchronization shows how to coordinate between threads via synchronized blocks instead of Synchronized methods" />
+    <MESSAGE value="Created a sample class to use it for the run time information access usage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a sample class to use it for the run time information access usage" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

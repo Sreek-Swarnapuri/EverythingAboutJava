@@ -12,8 +12,8 @@ import lombok.Setter;
 //Created a basic class to use for Demonstrating Runtime Type information
 public class BankAccount {
 
-    private int id;
-    private int balance;
+    public int id;
+    public int balance;
 
     public synchronized void deposit(int amount) {
         balance+=amount;
