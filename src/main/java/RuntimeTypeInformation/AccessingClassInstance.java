@@ -2,6 +2,7 @@ package RuntimeTypeInformation;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
+import java.lang.reflect.Modifier;
 
 public class AccessingClassInstance {
 
@@ -48,10 +49,18 @@ public class AccessingClassInstance {
             System.out.println(method.getName());
         }
 
-        //We can also get modifier information as well
+        //We can also retrieve type access modifiers
         System.out.println("----------------------------------");
         System.out.println("Modifiers of the Bank Account are:");
         System.out.println("----------------------------------");
-        System.out.println(bankAccountClass.getModifiers());
+        int modifiers = bankAccountClass.getModifiers();
+        if(Modifier.isFinal(modifiers))
+            System.out.println("method check - final");
+        if(Modifier.isPrivate(modifiers))
+            System.out.println("method check - private");
+        if(Modifier.isPublic(modifiers))
+            System.out.println("method check - public");
+        if(Modifier.isStatic(modifiers))
+            System.out.println("method check - static ");
     }
 }

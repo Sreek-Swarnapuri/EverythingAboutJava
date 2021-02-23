@@ -10,7 +10,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 //Created a basic class to use for Demonstrating Runtime Type information
-public class BankAccount {
+public final class BankAccount {
 
     public int id;
     public int balance;
