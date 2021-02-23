@@ -11,8 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="721805ae-5075-4181-a040-b62452a8ce8b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RuntimeTypeInformation/AccessingClassInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RuntimeTypeInformation/AccessingClassInstance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RuntimeTypeInformation/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RuntimeTypeInformation/BankAccount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -332,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613926251625</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Demonstration of accessing Run time information of any class using AccessingClassInstance Class">
+      <created>1613969430859</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1613969430859</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -370,7 +375,8 @@
     <MESSAGE value="MultiThreading Demonstration with ThreadPools via Callable and Future interfaces" />
     <MESSAGE value="ConcurrencyIssues shows how issues may occur when updating single resource via Threads&#10;CoordinatedConcurrency shows how to coordinate between threads via Synchronized methods&#10;ManualSynchronization shows how to coordinate between threads via synchronized blocks instead of Synchronized methods" />
     <MESSAGE value="Created a sample class to use it for the run time information access usage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a sample class to use it for the run time information access usage" />
+    <MESSAGE value="Demonstration of accessing Run time information of any class using AccessingClassInstance Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Demonstration of accessing Run time information of any class using AccessingClassInstance Class" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

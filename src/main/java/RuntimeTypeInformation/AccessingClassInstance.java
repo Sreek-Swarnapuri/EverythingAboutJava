@@ -47,5 +47,11 @@ public class AccessingClassInstance {
              bankAccountClass.getMethods()) {
             System.out.println(method.getName());
         }
+
+        //We can also get modifier information as well
+        System.out.println("----------------------------------");
+        System.out.println("Modifiers of the Bank Account are:");
+        System.out.println("----------------------------------");
+        System.out.println(bankAccountClass.getModifiers());
     }
 }
