@@ -12,11 +12,17 @@ import lombok.Setter;
 //Created a basic class to use for Demonstrating Runtime Type information
 public final class BankAccount {
 
-    public int id;
+    private int id;
+    private String firstName;
+    private String lastName;
     public int balance;
 
     public synchronized void deposit(int amount) {
         balance+=amount;
+    }
+
+    private synchronized void withdrawal(int amount) {
+        balance-=amount;
     }
 
 }

@@ -143,19 +143,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.LoggingUsingConfigFile" />
-      <item itemvalue="Application.ThreadPoolsWithCallable" />
+      <item itemvalue="Application.AccessingClassInstance" />
       <item itemvalue="Application.ConcurrencyIssues" />
       <item itemvalue="Application.CoordinatedConcurrency" />
       <item itemvalue="Application.ManualSynchronization" />
-      <item itemvalue="Application.AccessingClassInstance" />
+      <item itemvalue="Application.ThreadPoolsWithCallable" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.AccessingClassInstance" />
+        <item itemvalue="Application.ThreadPoolsWithCallable" />
         <item itemvalue="Application.ManualSynchronization" />
         <item itemvalue="Application.CoordinatedConcurrency" />
         <item itemvalue="Application.ConcurrencyIssues" />
-        <item itemvalue="Application.ThreadPoolsWithCallable" />
       </list>
     </recent_temporary>
   </component>
@@ -346,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614102803828</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="retrieving modifier information like final, public, private and static via reflection">
+      <created>1614104402626</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1614104402626</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -386,7 +393,8 @@
     <MESSAGE value="Created a sample class to use it for the run time information access usage" />
     <MESSAGE value="Demonstration of accessing Run time information of any class using AccessingClassInstance Class" />
     <MESSAGE value="retrieving modifier information via reflection" />
-    <option name="LAST_COMMIT_MESSAGE" value="retrieving modifier information via reflection" />
+    <MESSAGE value="retrieving modifier information like final, public, private and static via reflection" />
+    <option name="LAST_COMMIT_MESSAGE" value="retrieving modifier information like final, public, private and static via reflection" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

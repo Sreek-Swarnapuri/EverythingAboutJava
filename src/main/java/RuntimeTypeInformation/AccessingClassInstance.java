@@ -36,8 +36,17 @@ public class AccessingClassInstance {
         System.out.println("-------------------------------");
         for (Field field:
              bankAccountClass.getFields()) {
-            System.out.println(field.getName());
+            System.out.println(field.getName() + " : " + field.getType());
 
+        }
+
+        //We can check what declared fields the bank account class has, only if they are public
+        System.out.println("----------------------------------------");
+        System.out.println("Declared Fields of the Bank Account are:");
+        System.out.println("----------------------------------------");
+        for (Field field:
+                bankAccountClass.getDeclaredFields()) {
+            System.out.println(field.getName() + " : " + field.getType());
         }
 
         //We can check what methods the bank account class has, only if they are public too
@@ -46,6 +55,15 @@ public class AccessingClassInstance {
         System.out.println("--------------------------------");
         for (Method method:
              bankAccountClass.getMethods()) {
+            System.out.println(method.getName());
+        }
+
+        //We can check what methods the bank account class has, only if they are public too
+        System.out.println("--------------------------------");
+        System.out.println("Declared Methods of the Bank Account are:");
+        System.out.println("--------------------------------");
+        for (Method method:
+                bankAccountClass.getMethods()) {
             System.out.println(method.getName());
         }
 
