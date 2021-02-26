@@ -49,22 +49,34 @@ public class AccessingClassInstance {
             System.out.println(field.getName() + " : " + field.getType());
         }
 
+        //Retrieving a specific field
+        System.out.println("We can also get the specific field name from the class instance:");
+        try {
+            System.out.println(bankAccountClass.getDeclaredField("lastName").getName()
+                    + " : " + bankAccountClass.getDeclaredField("lastName").getType());
+        } catch (NoSuchFieldException e) {
+            e.printStackTrace();
+        }
+
         //We can check what methods the bank account class has, only if they are public too
         System.out.println("--------------------------------");
         System.out.println("Methods of the Bank Account are:");
         System.out.println("--------------------------------");
         for (Method method:
              bankAccountClass.getMethods()) {
-            System.out.println(method.getName());
+            //Excluding Object class methods
+            if(method.getDeclaringClass() != Object.class)
+                System.out.println(method.getName() + " : " + method.getReturnType());
         }
 
-        //We can check what methods the bank account class has, only if they are public too
-        System.out.println("--------------------------------");
+        //We can check what methods the bank account class has including private
+        // and protected via DeclaredMethods
+        System.out.println("-----------------------------------------");
         System.out.println("Declared Methods of the Bank Account are:");
-        System.out.println("--------------------------------");
+        System.out.println("-----------------------------------------");
         for (Method method:
-                bankAccountClass.getMethods()) {
-            System.out.println(method.getName());
+                bankAccountClass.getDeclaredMethods()) {
+            System.out.println(method.getName() + " : " + method.getReturnType());
         }
 
         //We can also retrieve type access modifiers

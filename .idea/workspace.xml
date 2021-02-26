@@ -12,7 +12,6 @@
     <list default="true" id="721805ae-5075-4181-a040-b62452a8ce8b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/RuntimeTypeInformation/AccessingClassInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RuntimeTypeInformation/AccessingClassInstance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RuntimeTypeInformation/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RuntimeTypeInformation/BankAccount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -353,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614104402626</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Using declared fields and declared methods of a Class instance to fetch all the declared types included private, protected">
+      <created>1614276107618</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1614276107618</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -394,7 +400,8 @@
     <MESSAGE value="Demonstration of accessing Run time information of any class using AccessingClassInstance Class" />
     <MESSAGE value="retrieving modifier information via reflection" />
     <MESSAGE value="retrieving modifier information like final, public, private and static via reflection" />
-    <option name="LAST_COMMIT_MESSAGE" value="retrieving modifier information like final, public, private and static via reflection" />
+    <MESSAGE value="Using declared fields and declared methods of a Class instance to fetch all the declared types included private, protected" />
+    <option name="LAST_COMMIT_MESSAGE" value="Using declared fields and declared methods of a Class instance to fetch all the declared types included private, protected" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
