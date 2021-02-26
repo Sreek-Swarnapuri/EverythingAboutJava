@@ -13,9 +13,9 @@ import lombok.Setter;
 public final class BankAccount {
 
     private int id;
-    private String firstName;
-    private String lastName;
-    public int balance;
+    public String firstName;
+    public String lastName;
+    private int balance;
 
     public synchronized void deposit(int amount) {
         balance+=amount;
