@@ -10,7 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="721805ae-5075-4181-a040-b62452a8ce8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/RuntimeTypeInformation/AccountWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RuntimeTypeInformation/HighVolumeAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RuntimeTypeInformation/InstanceCreationWithReflection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RuntimeTypeInformation/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RuntimeTypeInformation/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/goldenstudios/test/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/goldenstudios/test/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/Test.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,13 +67,13 @@
       <recent name="C:\Users\Sreek\Documents\Projects\EverythingAboutJava\src\main\java\appExecutionAndEnvironment\properties" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InvokingFromClassInstance">
-    <configuration name="AccessingClassInstance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RuntimeTypeInformation.AccessingClassInstance" />
+  <component name="RunManager" selected="Application.InstanceCreationWithReflection">
+    <configuration name="CoordinatedConcurrency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.CoordinatedConcurrency" />
       <module name="EverythingAboutJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RuntimeTypeInformation.*" />
+          <option name="PATTERN" value="multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoordinatedConcurrency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.CoordinatedConcurrency" />
+    <configuration name="InstanceCreationWithReflection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RuntimeTypeInformation.InstanceCreationWithReflection" />
       <module name="EverythingAboutJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multithreading.*" />
+          <option name="PATTERN" value="RuntimeTypeInformation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,18 +149,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.LoggingUsingConfigFile" />
-      <item itemvalue="Application.AccessingClassInstance" />
       <item itemvalue="Application.CoordinatedConcurrency" />
+      <item itemvalue="Application.InvokingFromClassInstance" />
       <item itemvalue="Application.ManualSynchronization" />
       <item itemvalue="Application.ThreadPoolsWithCallable" />
-      <item itemvalue="Application.InvokingFromClassInstance" />
+      <item itemvalue="Application.InstanceCreationWithReflection" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InvokingFromClassInstance" />
-        <item itemvalue="Application.AccessingClassInstance" />
+        <item itemvalue="Application.InstanceCreationWithReflection" />
         <item itemvalue="Application.ThreadPoolsWithCallable" />
         <item itemvalue="Application.ManualSynchronization" />
+        <item itemvalue="Application.InvokingFromClassInstance" />
         <item itemvalue="Application.CoordinatedConcurrency" />
       </list>
     </recent_temporary>
@@ -372,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614319076252</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Removed unnecessary files">
+      <created>1614531995101</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1614531995101</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -389,7 +404,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Updated CalcEngine with Switch, loops and arrays" />
     <MESSAGE value="added implementation for String Builder and string comparison" />
     <MESSAGE value="New String Joiner Usage, Added String regex usage" />
     <MESSAGE value="Updates to several collection classes." />
@@ -414,7 +428,8 @@
     <MESSAGE value="Using declared fields and declared methods of a Class instance to fetch all the declared types included private, protected" />
     <MESSAGE value="Accessing specific declared fields and Declared methods" />
     <MESSAGE value="Created class to demonstrate Invoking methods via reflection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created class to demonstrate Invoking methods via reflection" />
+    <MESSAGE value="Removed unnecessary files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed unnecessary files" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
