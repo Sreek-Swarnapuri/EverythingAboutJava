@@ -8,7 +8,10 @@ public class InstanceCreationWithReflection{
 
     public static void main(String[] args) {
         BankAccount acct1 = new BankAccount();
+        //Creating new instance via constructor
         startWork("RuntimeTypeInformation.AccountWorker",acct1);
+        //Creating new instance via constructor but converting it to an interface the instance inherits from
+        startworkInterface("RuntimeTypeInformation.AccountWorker",acct1);
     }
 
     static void startWork(String workerTypeName, Object workerTarget) {
@@ -32,6 +35,19 @@ public class InstanceCreationWithReflection{
             e.printStackTrace();
         }
 
+    }
+
+    // We create an instance and assign it to the object of the interface the target object inherits from
+    // and then use it to call the necessary methods directly instead of using reflection.
+    static void startworkInterface(String workerTypeName, Object workerTarget) {
+        try {
+            Class<?> workerType = Class.forName(workerTypeName);
+            TaskWorker worker = (TaskWorker) workerType.newInstance();
+            worker.setTarget(workerTarget);
+            worker.doWork();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
 }
