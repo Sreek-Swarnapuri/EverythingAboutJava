@@ -11,7 +11,7 @@ public class InstanceCreationWithReflection{
         //Creating new instance via constructor
         startWork("RuntimeTypeInformation.AccountWorker",acct1);
         //Creating new instance via constructor but converting it to an interface the instance inherits from
-        startworkInterface("RuntimeTypeInformation.AccountWorker",acct1);
+        startworkInterface("RuntimeTypeInformation.AccountWorkerImplTaskWorker",acct1);
     }
 
     static void startWork(String workerTypeName, Object workerTarget) {

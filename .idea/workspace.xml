@@ -10,17 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="721805ae-5075-4181-a040-b62452a8ce8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/RuntimeTypeInformation/AccountWorkerImplTaskWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RuntimeTypeInformation/TaskWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/metadataandannotations/AccountWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/metadataandannotations/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/metadataandannotations/BuiltInAnnotations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/metadataandannotations/Doer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/metadataandannotations/HighVolumeAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/metadataandannotations/AccessingCustomAnnotations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/metadataandannotations/AccountWorkerImplTaskWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/metadataandannotations/TaskWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/metadataandannotations/customannotations/WorkHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RuntimeTypeInformation/AccountWorkerImplTaskWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RuntimeTypeInformation/AccountWorkerImplTaskWorker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/RuntimeTypeInformation/InstanceCreationWithReflection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RuntimeTypeInformation/InstanceCreationWithReflection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/goldenstudios/test/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/Test.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +28,7 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -73,13 +70,13 @@
       <recent name="metadataandannotations" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InstanceCreationWithReflection">
-    <configuration name="CoordinatedConcurrency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.CoordinatedConcurrency" />
+  <component name="RunManager" selected="Application.AccessingCustomAnnotations">
+    <configuration name="AccessingCustomAnnotations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="metadataandannotations.AccessingCustomAnnotations" />
       <module name="EverythingAboutJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multithreading.*" />
+          <option name="PATTERN" value="metadataandannotations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,20 +151,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LoggingUsingConfigFile" />
-      <item itemvalue="Application.CoordinatedConcurrency" />
+      <item itemvalue="Application.AccessingCustomAnnotations" />
+      <item itemvalue="Application.InstanceCreationWithReflection" />
       <item itemvalue="Application.InvokingFromClassInstance" />
+      <item itemvalue="Application.LoggingUsingConfigFile" />
       <item itemvalue="Application.ManualSynchronization" />
       <item itemvalue="Application.ThreadPoolsWithCallable" />
-      <item itemvalue="Application.InstanceCreationWithReflection" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AccessingCustomAnnotations" />
         <item itemvalue="Application.InstanceCreationWithReflection" />
         <item itemvalue="Application.ThreadPoolsWithCallable" />
         <item itemvalue="Application.ManualSynchronization" />
         <item itemvalue="Application.InvokingFromClassInstance" />
-        <item itemvalue="Application.CoordinatedConcurrency" />
       </list>
     </recent_temporary>
   </component>
@@ -400,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614572256553</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="- Instance creation with reflection but converting the instance to Interface object for using it.&#10;- Added several classes to demonstrate the usage of annotations.">
+      <created>1614573780232</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1614573780232</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -417,7 +421,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="New String Joiner Usage, Added String regex usage" />
     <MESSAGE value="Updates to several collection classes." />
     <MESSAGE value="Added SortedMapUsage.java to demonstrate Sorted Map interface using TreeMap" />
     <MESSAGE value="Added a class to show how command line processing works. This has been worked from IDE where the arguments are sent when running the main class" />
@@ -442,7 +445,8 @@
     <MESSAGE value="Created class to demonstrate Invoking methods via reflection" />
     <MESSAGE value="Removed unnecessary files" />
     <MESSAGE value="- Removed unnecessary files&#10;- Demonstrated the usage of instance creation using reflection via Constructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Removed unnecessary files&#10;- Demonstrated the usage of instance creation using reflection via Constructor" />
+    <MESSAGE value="- Instance creation with reflection but converting the instance to Interface object for using it.&#10;- Added several classes to demonstrate the usage of annotations." />
+    <option name="LAST_COMMIT_MESSAGE" value="- Instance creation with reflection but converting the instance to Interface object for using it.&#10;- Added several classes to demonstrate the usage of annotations." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

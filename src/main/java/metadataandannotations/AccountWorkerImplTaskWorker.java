@@ -1,11 +1,13 @@
-package RuntimeTypeInformation;
+package metadataandannotations;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import metadataandannotations.customannotations.WorkHandler;
 
 @NoArgsConstructor
-public class AccountWorkerImplTaskWorker implements Runnable,TaskWorker {
+@WorkHandler(useThreadPool = false)
+public class AccountWorkerImplTaskWorker implements Runnable, TaskWorker {
 
     BankAccount ba;
     HighVolumeAccount hva;
@@ -35,9 +37,11 @@ public class AccountWorkerImplTaskWorker implements Runnable,TaskWorker {
     //Determines if the Thread work is done by HVA or this class as
     // they have separate run implementations
     public void doWork() {
+        System.out.println("Entering AccountWorkerImplTaskWorker - doWork()");
         Thread t = new Thread(
                 HighVolumeAccount.class.isInstance(ba) ? (HighVolumeAccount) ba: this
         );
+        System.out.println("Exiting AccountWorkerImplTaskWorker - doWork()");
     }
 
     @Override
