@@ -10,10 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="721805ae-5075-4181-a040-b62452a8ce8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/metadataandannotations/AnnotationElementsUsage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/metadataandannotations/customannotations/ClassTypeElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/metadataandannotations/customannotations/DefaultElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/metadataandannotations/customannotations/DirectAssignmentElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/serialization/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/serialization/SavingAnObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +25,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -47,11 +46,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/metadataandannotations" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -68,7 +67,7 @@
       <recent name="metadataandannotations" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AnnotationElementsUsage">
+  <component name="RunManager" selected="Application.SavingAnObject">
     <configuration name="AccessingCustomAnnotations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="metadataandannotations.AccessingCustomAnnotations" />
       <module name="EverythingAboutJava" />
@@ -122,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManualSynchronization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.ManualSynchronization" />
+    <configuration name="SavingAnObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serialization.SavingAnObject" />
       <module name="EverythingAboutJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multithreading.*" />
+          <option name="PATTERN" value="serialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,19 +149,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.LoggingUsingConfigFile" />
-      <item itemvalue="Application.ManualSynchronization" />
       <item itemvalue="Application.ThreadPoolsWithCallable" />
       <item itemvalue="Application.InstanceCreationWithReflection" />
       <item itemvalue="Application.AccessingCustomAnnotations" />
       <item itemvalue="Application.AnnotationElementsUsage" />
+      <item itemvalue="Application.SavingAnObject" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SavingAnObject" />
         <item itemvalue="Application.AnnotationElementsUsage" />
         <item itemvalue="Application.AccessingCustomAnnotations" />
         <item itemvalue="Application.InstanceCreationWithReflection" />
         <item itemvalue="Application.ThreadPoolsWithCallable" />
-        <item itemvalue="Application.ManualSynchronization" />
       </list>
     </recent_temporary>
   </component>
