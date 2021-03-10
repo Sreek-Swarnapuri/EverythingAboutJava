@@ -10,11 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="721805ae-5075-4181-a040-b62452a8ce8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractclasses/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/string/StringBufferUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functional/lambdas/Greeter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functional/lambdas/Greeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functional/lambdas/HelloWorldGreeting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/string/C01_StringSharing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/C01_StringSharing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/string/StringBuilderUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/StringBuilderUsage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/string/C01_StringSharing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/C01_StringSharing.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -76,20 +76,7 @@
       <recent name="metadataandannotations" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C01_StringSharing">
-    <configuration name="AccessingCustomAnnotations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="metadataandannotations.AccessingCustomAnnotations" />
-      <module name="EverythingAboutJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="metadataandannotations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Greeter">
     <configuration name="AnnotationElementsUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="metadataandannotations.AnnotationElementsUsage" />
       <module name="EverythingAboutJava" />
@@ -109,6 +96,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Greeter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional.lambdas.Greeter" />
+      <module name="EverythingAboutJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="functional.lambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,19 +158,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.LoggingUsingConfigFile" />
-      <item itemvalue="Application.AccessingCustomAnnotations" />
       <item itemvalue="Application.AnnotationElementsUsage" />
       <item itemvalue="Application.SavingAnObject" />
       <item itemvalue="Application.StringBufferUsage" />
       <item itemvalue="Application.C01_StringSharing" />
+      <item itemvalue="Application.Greeter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Greeter" />
         <item itemvalue="Application.C01_StringSharing" />
         <item itemvalue="Application.StringBufferUsage" />
         <item itemvalue="Application.SavingAnObject" />
         <item itemvalue="Application.AnnotationElementsUsage" />
-        <item itemvalue="Application.AccessingCustomAnnotations" />
       </list>
     </recent_temporary>
   </component>
@@ -424,7 +424,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615202033450</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="String comparison and String buffer usage. Abstract class usage">
+      <created>1615373353831</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1615373353831</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -441,7 +448,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added a class to show how command line processing works. This has been worked from IDE where the arguments are sent when running the main class" />
     <MESSAGE value="Added a class to print lines in the file name passed as an argument. Demonstrates how to use double quotes when passing a file name with spaces in between." />
     <MESSAGE value="Writing to and Loading from a properties file" />
     <MESSAGE value="Added functionality to Add properties via xml format" />
@@ -466,7 +472,8 @@
     <MESSAGE value="- Instance creation with reflection but converting the instance to Interface object for using it.&#10;- Added several classes to demonstrate the usage of annotations." />
     <MESSAGE value="Added usage of custom annotations and how to access them" />
     <MESSAGE value="Using Custom Serialization and Transient fields and how to manage them via writeObject() and readObject() methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Using Custom Serialization and Transient fields and how to manage them via writeObject() and readObject() methods" />
+    <MESSAGE value="String comparison and String buffer usage. Abstract class usage" />
+    <option name="LAST_COMMIT_MESSAGE" value="String comparison and String buffer usage. Abstract class usage" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
