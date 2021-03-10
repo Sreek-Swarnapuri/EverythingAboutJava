@@ -10,11 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="721805ae-5075-4181-a040-b62452a8ce8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/functional/lambdas/Greeter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/functional/lambdas/Greeting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/functional/lambdas/HelloWorldGreeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functional/lambdas/RunnableExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functional/lambdas/TypeInferenceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functional/lambdas/usingcollections/CollectionsWithLambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functional/lambdas/usingcollections/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/C01_StringSharing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/C01_StringSharing.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,13 +76,13 @@
       <recent name="metadataandannotations" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Greeter">
-    <configuration name="AnnotationElementsUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="metadataandannotations.AnnotationElementsUsage" />
+  <component name="RunManager" selected="Application.CollectionsWithLambda">
+    <configuration name="C01_StringSharing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.C01_StringSharing" />
       <module name="EverythingAboutJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="metadataandannotations.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01_StringSharing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.C01_StringSharing" />
+    <configuration name="CollectionsWithLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional.lambdas.usingcollections.CollectionsWithLambda" />
       <module name="EverythingAboutJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="functional.lambdas.usingcollections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SavingAnObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="serialization.SavingAnObject" />
+    <configuration name="RunnableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional.lambdas.RunnableExample" />
       <module name="EverythingAboutJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="serialization.*" />
+          <option name="PATTERN" value="functional.lambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBufferUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.StringBufferUsage" />
+    <configuration name="TypeInferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional.lambdas.TypeInferenceExample" />
       <module name="EverythingAboutJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="functional.lambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,19 +158,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.LoggingUsingConfigFile" />
-      <item itemvalue="Application.AnnotationElementsUsage" />
-      <item itemvalue="Application.SavingAnObject" />
-      <item itemvalue="Application.StringBufferUsage" />
       <item itemvalue="Application.C01_StringSharing" />
       <item itemvalue="Application.Greeter" />
+      <item itemvalue="Application.TypeInferenceExample" />
+      <item itemvalue="Application.RunnableExample" />
+      <item itemvalue="Application.CollectionsWithLambda" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CollectionsWithLambda" />
+        <item itemvalue="Application.RunnableExample" />
+        <item itemvalue="Application.TypeInferenceExample" />
         <item itemvalue="Application.Greeter" />
         <item itemvalue="Application.C01_StringSharing" />
-        <item itemvalue="Application.StringBufferUsage" />
-        <item itemvalue="Application.SavingAnObject" />
-        <item itemvalue="Application.AnnotationElementsUsage" />
       </list>
     </recent_temporary>
   </component>
@@ -431,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615373353831</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Functional interface and lambda expressions basic implementations">
+      <created>1615389422054</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1615389422054</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -448,7 +455,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added a class to print lines in the file name passed as an argument. Demonstrates how to use double quotes when passing a file name with spaces in between." />
     <MESSAGE value="Writing to and Loading from a properties file" />
     <MESSAGE value="Added functionality to Add properties via xml format" />
     <MESSAGE value="Demonstrate working with Default properties" />
@@ -473,7 +479,8 @@
     <MESSAGE value="Added usage of custom annotations and how to access them" />
     <MESSAGE value="Using Custom Serialization and Transient fields and how to manage them via writeObject() and readObject() methods" />
     <MESSAGE value="String comparison and String buffer usage. Abstract class usage" />
-    <option name="LAST_COMMIT_MESSAGE" value="String comparison and String buffer usage. Abstract class usage" />
+    <MESSAGE value="Functional interface and lambda expressions basic implementations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Functional interface and lambda expressions basic implementations" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
