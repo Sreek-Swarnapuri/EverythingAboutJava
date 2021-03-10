@@ -8,6 +8,7 @@ public class StringBuilderUsage {
         int flightNumber = 11;
 
         //Can dynamically resize. However, we can provide the initial length
+        //String builder is not thread safe
         StringBuilder sb = new StringBuilder(40);
         sb.append("I flew to space");
         sb.append(location);
