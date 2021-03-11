@@ -10,10 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="721805ae-5075-4181-a040-b62452a8ce8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/functional/lambdas/RunnableExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/functional/lambdas/TypeInferenceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/functional/lambdas/usingcollections/CollectionsWithLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/functional/lambdas/usingcollections/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functional/streams/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functional/streams/StreamsExamples.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,20 +74,7 @@
       <recent name="metadataandannotations" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CollectionsWithLambda">
-    <configuration name="C01_StringSharing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.C01_StringSharing" />
-      <module name="EverythingAboutJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StreamsExamples">
     <configuration name="CollectionsWithLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functional.lambdas.usingcollections.CollectionsWithLambda" />
       <module name="EverythingAboutJava" />
@@ -143,6 +128,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamsExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional.streams.StreamsExamples" />
+      <module name="EverythingAboutJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="functional.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TypeInferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functional.lambdas.TypeInferenceExample" />
       <module name="EverythingAboutJava" />
@@ -158,19 +156,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.LoggingUsingConfigFile" />
-      <item itemvalue="Application.C01_StringSharing" />
       <item itemvalue="Application.Greeter" />
       <item itemvalue="Application.TypeInferenceExample" />
       <item itemvalue="Application.RunnableExample" />
       <item itemvalue="Application.CollectionsWithLambda" />
+      <item itemvalue="Application.StreamsExamples" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamsExamples" />
         <item itemvalue="Application.CollectionsWithLambda" />
         <item itemvalue="Application.RunnableExample" />
         <item itemvalue="Application.TypeInferenceExample" />
         <item itemvalue="Application.Greeter" />
-        <item itemvalue="Application.C01_StringSharing" />
       </list>
     </recent_temporary>
   </component>
@@ -438,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615389422054</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Using lambda expressions with collections">
+      <created>1615399318230</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1615399318230</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -455,7 +460,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Writing to and Loading from a properties file" />
     <MESSAGE value="Added functionality to Add properties via xml format" />
     <MESSAGE value="Demonstrate working with Default properties" />
     <MESSAGE value="Demonstration of execution environment information like system properties or Environment Variables" />
@@ -480,7 +484,8 @@
     <MESSAGE value="Using Custom Serialization and Transient fields and how to manage them via writeObject() and readObject() methods" />
     <MESSAGE value="String comparison and String buffer usage. Abstract class usage" />
     <MESSAGE value="Functional interface and lambda expressions basic implementations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Functional interface and lambda expressions basic implementations" />
+    <MESSAGE value="Using lambda expressions with collections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Using lambda expressions with collections" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
