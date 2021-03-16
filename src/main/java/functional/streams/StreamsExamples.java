@@ -46,6 +46,10 @@ public class StreamsExamples {
         employees.sort((e1,e2) -> e2.getAge()-e1.getAge());
         employees.forEach(System.out::println);
 
+        //Get an employee who has max salary
+        System.out.println("-----Get an employee who has max Age-----");
+        Optional<Employee> employee = employees.stream().max(Comparator.comparing(Employee::getAge));
+
         //Join the all employee names with “,”
         System.out.println("------Join the all employee names with “,”------");
         List<String> employeeNames = employees.stream().map(Employee::getName).collect(Collectors.toList());
