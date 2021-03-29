@@ -10,17 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="721805ae-5075-4181-a040-b62452a8ce8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/CircularBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/generics/CircularBufferTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generics/collections/ListExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generics/collections/MapExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generics/collections/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generics/collections/SetExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generics/collections/TheArrayProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EverythingAboutJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EverythingAboutJava.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +77,20 @@
       <recent name="metadataandannotations" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CircularBufferTest">
+  <component name="RunManager" selected="Application.SetExamples">
+    <configuration name="ListExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.collections.ListExamples" />
+      <module name="EverythingAboutJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="generics.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoggingUsingConfigFile" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="logging.LoggingUsingConfigFile" />
       <module name="EverythingAboutJava" />
@@ -90,6 +98,32 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="logging.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.collections.SetExamples" />
+      <module name="EverythingAboutJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="generics.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TheArrayProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.collections.TheArrayProblem" />
+      <module name="EverythingAboutJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="generics.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,54 +146,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircularBufferTest.shouldNotOfferWhenBufferIsFull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EverythingAboutJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="generics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="generics" />
-      <option name="MAIN_CLASS_NAME" value="generics.CircularBufferTest" />
-      <option name="METHOD_NAME" value="shouldNotOfferWhenBufferIsFull" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CircularBufferTest.shouldNotPollWhenBufferIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EverythingAboutJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="generics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="generics" />
-      <option name="MAIN_CLASS_NAME" value="generics.CircularBufferTest" />
-      <option name="METHOD_NAME" value="shouldNotPollWhenBufferIsEmpty" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CircularBufferTest.shouldOfferPollableElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EverythingAboutJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="generics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="generics" />
-      <option name="MAIN_CLASS_NAME" value="generics.CircularBufferTest" />
-      <option name="METHOD_NAME" value="shouldOfferPollableElement" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CircularBufferTest.shouldRecycleBuffer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EverythingAboutJava" />
       <extension name="coverage">
@@ -178,19 +164,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.LoggingUsingConfigFile" />
-      <item itemvalue="JUnit.CircularBufferTest.shouldOfferPollableElement" />
-      <item itemvalue="JUnit.CircularBufferTest.shouldNotOfferWhenBufferIsFull" />
-      <item itemvalue="JUnit.CircularBufferTest.shouldNotPollWhenBufferIsEmpty" />
+      <item itemvalue="Application.TheArrayProblem" />
+      <item itemvalue="Application.ListExamples" />
+      <item itemvalue="Application.SetExamples" />
       <item itemvalue="JUnit.CircularBufferTest.shouldRecycleBuffer" />
       <item itemvalue="JUnit.CircularBufferTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SetExamples" />
+        <item itemvalue="Application.ListExamples" />
+        <item itemvalue="Application.TheArrayProblem" />
         <item itemvalue="JUnit.CircularBufferTest" />
         <item itemvalue="JUnit.CircularBufferTest.shouldRecycleBuffer" />
-        <item itemvalue="JUnit.CircularBufferTest.shouldNotPollWhenBufferIsEmpty" />
-        <item itemvalue="JUnit.CircularBufferTest.shouldNotOfferWhenBufferIsFull" />
-        <item itemvalue="JUnit.CircularBufferTest.shouldOfferPollableElement" />
       </list>
     </recent_temporary>
   </component>
@@ -479,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615917397680</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Created a Basic Generic class of Data Structure CircularBuffer to show the usage of Generics in Java">
+      <created>1616610281871</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1616610281872</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,7 +489,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Demonstration of execution environment information like system properties or Environment Variables" />
     <MESSAGE value="Demonstration of Logging usage via basic calls, log levels, log methods, handlers, formatters etc." />
     <MESSAGE value="Started a package for MultiThreading" />
     <MESSAGE value="Added a single Threaded application class" />
@@ -521,7 +513,8 @@
     <MESSAGE value="Using lambda expressions with collections" />
     <MESSAGE value="Using streams with different examples" />
     <MESSAGE value="Additional stream example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Additional stream example" />
+    <MESSAGE value="Created a Basic Generic class of Data Structure CircularBuffer to show the usage of Generics in Java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a Basic Generic class of Data Structure CircularBuffer to show the usage of Generics in Java" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
