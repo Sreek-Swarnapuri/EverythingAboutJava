@@ -10,12 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="721805ae-5075-4181-a040-b62452a8ce8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/collections/ListExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/collections/MapExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/collections/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/collections/SetExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/collections/TheArrayProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/functional/lambdas/usingcollections/CollectionsWithLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functional/lambdas/usingcollections/CollectionsWithLambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/streams/BinaryStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/streams/BinaryStreams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/streams/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/streams/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/streams/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/streams/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/streams/MyAutoCloseable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/streams/MyAutoCloseable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/streams/TextStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/streams/TextStreams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/streams/zipfileutility/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/streams/zipfileutility/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -472,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616610281872</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Demonstration of Generics in Collections with List and Set examples.">
+      <created>1616991672254</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1616991672254</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -489,7 +498,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Demonstration of Logging usage via basic calls, log levels, log methods, handlers, formatters etc." />
     <MESSAGE value="Started a package for MultiThreading" />
     <MESSAGE value="Added a single Threaded application class" />
     <MESSAGE value="MultiThreading Demonstration with time calculation" />
@@ -514,7 +522,8 @@
     <MESSAGE value="Using streams with different examples" />
     <MESSAGE value="Additional stream example" />
     <MESSAGE value="Created a Basic Generic class of Data Structure CircularBuffer to show the usage of Generics in Java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a Basic Generic class of Data Structure CircularBuffer to show the usage of Generics in Java" />
+    <MESSAGE value="Demonstration of Generics in Collections with List and Set examples." />
+    <option name="LAST_COMMIT_MESSAGE" value="Demonstration of Generics in Collections with List and Set examples." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

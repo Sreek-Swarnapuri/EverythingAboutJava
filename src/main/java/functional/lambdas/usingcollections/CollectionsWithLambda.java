@@ -2,6 +2,7 @@ package functional.lambdas.usingcollections;
 
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class CollectionsWithLambda {
@@ -17,7 +18,8 @@ public class CollectionsWithLambda {
         );
 
         //Step 1: Sort list by first name
-        Collections.sort(personList, (p1, p2) -> p1.getFirstName().compareTo(p2.getFirstName()));
+        //Collections.sort(personList, (p1, p2) -> p1.getFirstName().compareTo(p2.getFirstName()));
+        Collections.sort(personList, Comparator.comparing(Person::getFirstName));
 
         //Step 2: Create a method that prints all the persons in the list
         System.out.println("---------Printing all the persons in order---------");

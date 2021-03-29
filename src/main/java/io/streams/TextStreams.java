@@ -1,6 +1,5 @@
-package streams;
+package io.streams;
 
-import javax.print.DocFlavor;
 import java.io.IOException;
 import java.io.Reader;
 import java.io.Writer;

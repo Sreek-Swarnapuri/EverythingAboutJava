@@ -1,4 +1,4 @@
-package streams.zipfileutility;
+package io.streams.zipfileutility;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
