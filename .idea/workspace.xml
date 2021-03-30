@@ -9,11 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="721805ae-5075-4181-a040-b62452a8ce8b" name="Default Changelist" comment="Generics with Classes and Interfaces:&#10;1. Implementing a Generic type to a Comparator&#10;2. Passing a parameter to a Generic Type&#10;3. Binding the types throughout our class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/classes_interfaces/AgeComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/classes_interfaces/SortingExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/type_bounds/SortedPair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/generics/type_bounds/SortedPairTest.java" afterDir="false" />
+    <list default="true" id="721805ae-5075-4181-a040-b62452a8ce8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/generics/methods/Examples.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +74,20 @@
       <recent name="metadataandannotations" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SortedPairTest">
+  <component name="RunManager" selected="Application.Examples">
+    <configuration name="Examples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.methods.Examples" />
+      <module name="EverythingAboutJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="generics.methods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoggingUsingConfigFile" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="logging.LoggingUsingConfigFile" />
       <module name="EverythingAboutJava" />
@@ -94,19 +104,6 @@
     </configuration>
     <configuration name="MapExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="generics.collections.MapExamples" />
-      <module name="EverythingAboutJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="generics.collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SetExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.collections.SetExamples" />
       <module name="EverythingAboutJava" />
       <extension name="coverage">
         <pattern>
@@ -161,19 +158,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.LoggingUsingConfigFile" />
-      <item itemvalue="Application.SetExamples" />
       <item itemvalue="Application.StreamsExamples" />
       <item itemvalue="Application.MapExamples" />
       <item itemvalue="Application.SortingExamples" />
       <item itemvalue="JUnit.SortedPairTest" />
+      <item itemvalue="Application.Examples" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Examples" />
         <item itemvalue="JUnit.SortedPairTest" />
         <item itemvalue="Application.SortingExamples" />
         <item itemvalue="Application.MapExamples" />
         <item itemvalue="Application.StreamsExamples" />
-        <item itemvalue="Application.SetExamples" />
       </list>
     </recent_temporary>
   </component>
@@ -490,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617040343668</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Generics with Classes and Interfaces:&#10;1. Implementing a Generic type to a Comparator&#10;2. Passing a parameter to a Generic Type&#10;3. Binding the types throughout our class">
+      <created>1617042542441</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1617042542441</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
