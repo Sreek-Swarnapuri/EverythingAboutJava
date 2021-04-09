@@ -10,8 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="721805ae-5075-4181-a040-b62452a8ce8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/methods/Examples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generics/wildcards/bounded/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generics/wildcards/bounded/Partner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generics/wildcards/unbounded/Unbounded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generics/wildcards/util/PersonLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generics/wildcards/util/PersonSaver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/generics/wildcards/bounded/PersonStorageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/generics/wildcards/unbounded/UnboundedTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/functional/streams/StreamsExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functional/streams/StreamsExamples.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +59,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/generics" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/generics/wildcards/unbounded" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringProjects/SpringData/SpringBootJPA" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -74,20 +81,7 @@
       <recent name="metadataandannotations" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Examples">
-    <configuration name="Examples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.methods.Examples" />
-      <module name="EverythingAboutJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="generics.methods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.UnboundedTest.getsClassNameWithPerson">
     <configuration name="LoggingUsingConfigFile" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="logging.LoggingUsingConfigFile" />
       <module name="EverythingAboutJava" />
@@ -102,75 +96,101 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.collections.MapExamples" />
+    <configuration name="PersonStorageTest.saveAndLoadAllLIstOfPersons" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EverythingAboutJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.collections.*" />
+          <option name="PATTERN" value="generics.wildcards.bounded.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="generics.wildcards.bounded" />
+      <option name="MAIN_CLASS_NAME" value="generics.wildcards.bounded.PersonStorageTest" />
+      <option name="METHOD_NAME" value="saveAndLoadAllLIstOfPersons" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortingExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.classes_interfaces.SortingExamples" />
+    <configuration name="PersonStorageTest.savesAndLoadsPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EverythingAboutJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.classes_interfaces.*" />
+          <option name="PATTERN" value="generics.wildcards.bounded.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="generics.wildcards.bounded" />
+      <option name="MAIN_CLASS_NAME" value="generics.wildcards.bounded.PersonStorageTest" />
+      <option name="METHOD_NAME" value="savesAndLoadsPerson" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functional.streams.StreamsExamples" />
+    <configuration name="PersonStorageTest.savesAndLoadsTwoPersons" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EverythingAboutJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="functional.streams.*" />
+          <option name="PATTERN" value="generics.wildcards.bounded.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="generics.wildcards.bounded" />
+      <option name="MAIN_CLASS_NAME" value="generics.wildcards.bounded.PersonStorageTest" />
+      <option name="METHOD_NAME" value="savesAndLoadsTwoPersons" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortedPairTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonStorageTest.savingPartnerToEmployeeArrayThrowsError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EverythingAboutJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.type_bounds.*" />
+          <option name="PATTERN" value="generics.wildcards.bounded.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="generics.type_bounds" />
-      <option name="MAIN_CLASS_NAME" value="generics.type_bounds.SortedPairTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="generics.wildcards.bounded" />
+      <option name="MAIN_CLASS_NAME" value="generics.wildcards.bounded.PersonStorageTest" />
+      <option name="METHOD_NAME" value="savingPartnerToEmployeeArrayThrowsError" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnboundedTest.getsClassNameWithPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EverythingAboutJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="generics.wildcards.unbounded.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="generics.wildcards.unbounded" />
+      <option name="MAIN_CLASS_NAME" value="generics.wildcards.unbounded.UnboundedTest" />
+      <option name="METHOD_NAME" value="getsClassNameWithPerson" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.LoggingUsingConfigFile" />
-      <item itemvalue="Application.StreamsExamples" />
-      <item itemvalue="Application.MapExamples" />
-      <item itemvalue="Application.SortingExamples" />
-      <item itemvalue="JUnit.SortedPairTest" />
-      <item itemvalue="Application.Examples" />
+      <item itemvalue="JUnit.PersonStorageTest.savesAndLoadsPerson" />
+      <item itemvalue="JUnit.PersonStorageTest.savesAndLoadsTwoPersons" />
+      <item itemvalue="JUnit.PersonStorageTest.savingPartnerToEmployeeArrayThrowsError" />
+      <item itemvalue="JUnit.PersonStorageTest.saveAndLoadAllLIstOfPersons" />
+      <item itemvalue="JUnit.UnboundedTest.getsClassNameWithPerson" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Examples" />
-        <item itemvalue="JUnit.SortedPairTest" />
-        <item itemvalue="Application.SortingExamples" />
-        <item itemvalue="Application.MapExamples" />
-        <item itemvalue="Application.StreamsExamples" />
+        <item itemvalue="JUnit.UnboundedTest.getsClassNameWithPerson" />
+        <item itemvalue="JUnit.PersonStorageTest.saveAndLoadAllLIstOfPersons" />
+        <item itemvalue="JUnit.PersonStorageTest.savingPartnerToEmployeeArrayThrowsError" />
+        <item itemvalue="JUnit.PersonStorageTest.savesAndLoadsTwoPersons" />
+        <item itemvalue="JUnit.PersonStorageTest.savesAndLoadsPerson" />
       </list>
     </recent_temporary>
   </component>
@@ -494,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617042542441</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Demonstration of Generic methods in Java&#10;1. Type parameter in the method declaration &lt;T&gt; so that the same type can be used throughout the method&#10;2. Type return type on the method">
+      <created>1617125470923</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1617125470923</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -511,7 +538,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="MultiThreading Demonstration with ThreadPools i.e. ExecutorService" />
     <MESSAGE value="MultiThreading Demonstration with ThreadPools via Callable and Future interfaces" />
     <MESSAGE value="ConcurrencyIssues shows how issues may occur when updating single resource via Threads&#10;CoordinatedConcurrency shows how to coordinate between threads via Synchronized methods&#10;ManualSynchronization shows how to coordinate between threads via synchronized blocks instead of Synchronized methods" />
     <MESSAGE value="Created a sample class to use it for the run time information access usage" />
@@ -536,7 +562,8 @@
     <MESSAGE value="renamed io streams package" />
     <MESSAGE value="Added Map Generic examples" />
     <MESSAGE value="Generics with Classes and Interfaces:&#10;1. Implementing a Generic type to a Comparator&#10;2. Passing a parameter to a Generic Type&#10;3. Binding the types throughout our class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generics with Classes and Interfaces:&#10;1. Implementing a Generic type to a Comparator&#10;2. Passing a parameter to a Generic Type&#10;3. Binding the types throughout our class" />
+    <MESSAGE value="Demonstration of Generic methods in Java&#10;1. Type parameter in the method declaration &lt;T&gt; so that the same type can be used throughout the method&#10;2. Type return type on the method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Demonstration of Generic methods in Java&#10;1. Type parameter in the method declaration &lt;T&gt; so that the same type can be used throughout the method&#10;2. Type return type on the method" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -17,14 +17,14 @@ public class StreamsExamples {
         );
 
         //Filter employees whose age is greater than 30
-        List<Employee> filteredEmployees = employees.stream().filter(e -> e.getAge()>30).collect(Collectors.toList());
+        List<Employee> filteredEmployees = employees.stream().filter(e -> e.getAge() > 30).collect(Collectors.toList());
         //Using method reference in lambda
         System.out.println("---------Employees with age >30---------");
         filteredEmployees.forEach(System.out::println);
 
         //Count number of employees with age greater than 25
         System.out.println("-------No of employees with age > 25-------");
-        System.out.println(employees.stream().filter(e -> e.getAge()> 25).count());
+        System.out.println(employees.stream().filter(e -> e.getAge() > 25).count());
 
         //Find an employee with name Velma
         System.out.println("-------Employee with name velma-------");
@@ -43,7 +43,7 @@ public class StreamsExamples {
 
         //Descending order
         System.out.println("------Sorting employees based on age in Descending order------");
-        employees.sort((e1,e2) -> e2.getAge()-e1.getAge());
+        employees.sort((e1, e2) -> e2.getAge() - e1.getAge());
         employees.forEach(System.out::println);
 
         //Get an employee who has max salary
@@ -53,11 +53,11 @@ public class StreamsExamples {
         //Join the all employee names with “,”
         System.out.println("------Join the all employee names with “,”------");
         List<String> employeeNames = employees.stream().map(Employee::getName).collect(Collectors.toList());
-        String employeeNamesStr = String.join(",",employeeNames);
+        String employeeNamesStr = String.join(",", employeeNames);
         System.out.println(employeeNamesStr);
 
         //Remove duplicates from an integer array
-        Integer[] arr = new Integer[]{1,2,3,4,3,2,4,2};
+        Integer[] arr = new Integer[]{1, 2, 3, 4, 3, 2, 4, 2};
         Set<Integer> setWithoutDups = new HashSet<>(Arrays.asList(arr));
         Set<Integer> setWithoutDups1 = Arrays.asList(arr).stream().collect(Collectors.toSet());
 
@@ -69,11 +69,11 @@ public class StreamsExamples {
         //Given a list of numbers, square them and
         // filter the numbers which are greater 10000 and then find average of them.( Java 8 APIs only)
         System.out.println("--------Square, greater than 10000 and average-------");
-        Integer[] nums = new Integer[]{100,24,13,44,114,200,40,112};
+        Integer[] nums = new Integer[]{100, 24, 13, 44, 114, 200, 40, 112};
 
         OptionalDouble average = Arrays.stream(nums)
-                .mapToInt(n -> n*n)
-                .filter(n -> n>10000)
+                .mapToInt(n -> n * n)
+                .filter(n -> n > 10000)
                 .average();
 
         if (average.isPresent()) {
