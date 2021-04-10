@@ -1,4 +1,4 @@
-package metadataandannotations;
+package meta_data_and_annotations;
 
 /**
  * Extension of bank account which may have multiple deposits and

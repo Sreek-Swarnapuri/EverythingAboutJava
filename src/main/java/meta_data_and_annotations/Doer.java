@@ -1,4 +1,4 @@
-package metadataandannotations;
+package meta_data_and_annotations;
 
 public class Doer {
     // In case this method is old and a new implementation is to be provided

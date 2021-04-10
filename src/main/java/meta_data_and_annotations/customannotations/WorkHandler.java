@@ -1,4 +1,4 @@
-package metadataandannotations.customannotations;
+package meta_data_and_annotations.customannotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

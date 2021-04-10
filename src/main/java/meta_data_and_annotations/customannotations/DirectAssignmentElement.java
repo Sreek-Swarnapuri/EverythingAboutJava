@@ -1,4 +1,4 @@
-package metadataandannotations.customannotations;
+package meta_data_and_annotations.customannotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -7,6 +7,8 @@ import java.lang.annotation.Target;
 
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface ClassTypeElement {
-    Class<?> value();
+public @interface DirectAssignmentElement {
+
+    String value() default "Default";
+
 }

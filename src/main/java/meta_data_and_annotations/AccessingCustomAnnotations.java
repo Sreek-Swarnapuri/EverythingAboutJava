@@ -1,6 +1,6 @@
-package metadataandannotations;
+package meta_data_and_annotations;
 
-import metadataandannotations.customannotations.WorkHandler;
+import meta_data_and_annotations.customannotations.WorkHandler;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

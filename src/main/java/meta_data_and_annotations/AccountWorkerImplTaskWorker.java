@@ -1,9 +1,9 @@
-package metadataandannotations;
+package meta_data_and_annotations;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import metadataandannotations.customannotations.WorkHandler;
+import meta_data_and_annotations.customannotations.WorkHandler;
 
 @NoArgsConstructor
 @WorkHandler(useThreadPool = false)

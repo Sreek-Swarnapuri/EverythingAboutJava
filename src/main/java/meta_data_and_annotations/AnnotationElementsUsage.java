@@ -1,8 +1,8 @@
-package metadataandannotations;
+package meta_data_and_annotations;
 
-import metadataandannotations.customannotations.ClassTypeElement;
-import metadataandannotations.customannotations.DefaultElements;
-import metadataandannotations.customannotations.DirectAssignmentElement;
+import meta_data_and_annotations.customannotations.ClassTypeElement;
+import meta_data_and_annotations.customannotations.DefaultElements;
+import meta_data_and_annotations.customannotations.DirectAssignmentElement;
 
 
 @DefaultElements
