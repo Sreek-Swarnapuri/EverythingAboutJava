@@ -178,19 +178,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.LoggingUsingConfigFile" />
+      <item itemvalue="JUnit.PersonStorageTest.saveAndLoadAllLIstOfPersons" />
       <item itemvalue="JUnit.PersonStorageTest.savesAndLoadsPerson" />
       <item itemvalue="JUnit.PersonStorageTest.savesAndLoadsTwoPersons" />
       <item itemvalue="JUnit.PersonStorageTest.savingPartnerToEmployeeArrayThrowsError" />
-      <item itemvalue="JUnit.PersonStorageTest.saveAndLoadAllLIstOfPersons" />
       <item itemvalue="JUnit.UnboundedTest.getsClassNameWithPerson" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.UnboundedTest.getsClassNameWithPerson" />
-        <item itemvalue="JUnit.PersonStorageTest.saveAndLoadAllLIstOfPersons" />
         <item itemvalue="JUnit.PersonStorageTest.savingPartnerToEmployeeArrayThrowsError" />
         <item itemvalue="JUnit.PersonStorageTest.savesAndLoadsTwoPersons" />
         <item itemvalue="JUnit.PersonStorageTest.savesAndLoadsPerson" />
+        <item itemvalue="JUnit.PersonStorageTest.saveAndLoadAllLIstOfPersons" />
       </list>
     </recent_temporary>
   </component>

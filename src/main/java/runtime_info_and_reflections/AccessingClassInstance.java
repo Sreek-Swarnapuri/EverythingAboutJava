@@ -1,4 +1,4 @@
-package RuntimeTypeInformation;
+package runtime_info_and_reflections;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -18,7 +18,7 @@ public class AccessingClassInstance {
         //We can get the class instance by using Class.forName() method as well
         // passing the "fully qualified Class" name as String into the method
         try {
-            Class<?> bankAccountClass2 = Class.forName("RuntimeTypeInformation.BankAccount");
+            Class<?> bankAccountClass2 = Class.forName("runtime_info_and_reflections.BankAccount");
             //We can print the name of the class
             System.out.println("Class name via forName(): " + bankAccountClass2.getSimpleName());
         } catch (ClassNotFoundException e) {

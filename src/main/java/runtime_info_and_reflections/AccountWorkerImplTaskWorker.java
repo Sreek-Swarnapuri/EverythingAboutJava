@@ -1,4 +1,4 @@
-package RuntimeTypeInformation;
+package runtime_info_and_reflections;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

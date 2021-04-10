@@ -1,4 +1,4 @@
-package RuntimeTypeInformation;
+package runtime_info_and_reflections;
 
 public interface TaskWorker {
 

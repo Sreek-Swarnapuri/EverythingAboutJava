@@ -1,4 +1,4 @@
-package RuntimeTypeInformation;
+package runtime_info_and_reflections;
 
 /**
  * Extension of bank account which may have multiple deposits and
