@@ -81,6 +81,38 @@ public class StreamsExamples {
         } else {
             System.out.println("No numbers are above 10000");
         }
+
+        List<EmployeeWithSalary> employeesWithSalaries = Arrays.asList(
+                new EmployeeWithSalary("Dan", 45,10000),
+                new EmployeeWithSalary("Trish", 23,20000),
+                new EmployeeWithSalary("Tom", 58,5000),
+                new EmployeeWithSalary("Velma", 28,50000),
+                new EmployeeWithSalary("Shag", 32,80000),
+                new EmployeeWithSalary("Warren", 20,25000)
+        );
+
+        // Get list of employees with salary greater than 20000 and age greater than 25
+        List<EmployeeWithSalary> employeesWithGreater20kAndAgeGreater25 =
+                employeesWithSalaries.stream()
+                        .filter(e -> e.getSalary()>20000 && e.getAge()>25)
+                .collect(Collectors.toList());
+
+        System.out.println("--------- list of employees with salary greater than 20000 and age greater than 25 ---------");
+        System.out.println(employeesWithGreater20kAndAgeGreater25);
+
+        System.out.println("----- Sum of all Salaries -----");
+        System.out.println(employeesWithSalaries.stream().map(EmployeeWithSalary::getSalary).reduce(Double::sum));
+
+        System.out.println("----- Employee with max salary -----");
+        System.out.println(employeesWithSalaries.stream().max(Comparator.comparing(EmployeeWithSalary::getSalary)));
+
+        System.out.println("----- Employee with min salary -----");
+        System.out.println(employeesWithSalaries.stream().min(Comparator.comparing(EmployeeWithSalary::getSalary)));
+
+        System.out.println("---- employees with name starting with 'T' -----");
+        System.out.println(employeesWithSalaries.stream().filter(s -> s.getName().startsWith("T")).collect(Collectors.toList()));
+
+
     }
 
 }
