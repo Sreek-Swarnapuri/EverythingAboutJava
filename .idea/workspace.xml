@@ -4,33 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8dbe9a2-4be5-4942-b00a-868485360b9b" name="Default Changelist" comment="&gt; Basic implementations of multi threading&#10;&gt; Updates to hash Map and Tree Map usage">
-      <change afterPath="$PROJECT_DIR$/src/main/java/functional/streams/EmployeeWithSalary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nulls/HandlingNulls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/EverythingAboutJava_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="a8dbe9a2-4be5-4942-b00a-868485360b9b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nulls/HandlingNullsWithAnnotations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/functional/streams/StreamsExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functional/streams/StreamsExamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/collections/CollectionConcepts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/collections/CollectionConcepts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/collections/lists/ArrayListUsage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/collections/lists/ArrayListUsage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/collections/maps/HashMapUsage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/collections/maps/HashMapUsage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/collections/queues/ArrayDequeImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/collections/queues/ArrayDequeImplementation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/collections/utilclasses/Product$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/collections/utilclasses/Product$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/collections/utilclasses/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/collections/utilclasses/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/projects/pluralsight/application/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/projects/pluralsight/application/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/projects/pluralsight/calengine/CalculateHelper$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/projects/pluralsight/calengine/CalculateHelper$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/projects/pluralsight/calengine/CalculateHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/projects/pluralsight/calengine/CalculateHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/projects/pluralsight/calengine/Divider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/projects/pluralsight/calengine/Divider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/projects/pluralsight/calengine/DynamicHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/projects/pluralsight/calengine/DynamicHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/projects/pluralsight/calengine/MathEquation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/projects/pluralsight/calengine/MathEquation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/C01_StringSharing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/C01_StringSharing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/string/ComparingTwoStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/ComparingTwoStrings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EverythingAboutJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EverythingAboutJava.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +39,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringProjects/SprintDataJPA_Hibernate/sprint-database-demo" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.HandlingNulls">
+  <component name="RunManager" selected="Application.HandlingNullsWithAnnotations">
     <configuration name="ExecutorServiceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multithreading.basic.ExecutorServiceExample" />
       <module name="EverythingAboutJava" />
@@ -86,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiThreadingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.basic.MultiThreadingExample" />
+    <configuration name="HandlingNullsWithAnnotations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nulls.HandlingNullsWithAnnotations" />
       <module name="EverythingAboutJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multithreading.basic.*" />
+          <option name="PATTERN" value="nulls.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HandlingNullsWithAnnotations" />
         <item itemvalue="Application.HandlingNulls" />
         <item itemvalue="Application.StreamsExamples" />
         <item itemvalue="Application.ThreadWaitAndNotify" />
         <item itemvalue="Application.ExecutorServiceExample" />
-        <item itemvalue="Application.MultiThreadingExample" />
       </list>
     </recent_temporary>
   </component>
@@ -151,11 +131,19 @@
       <option name="project" value="LOCAL" />
       <updated>1619977821746</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&gt; Basic null checks in Java">
+      <created>1624818270330</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1624818270330</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&gt; Basic implementations of multi threading&#10;&gt; Updates to hash Map and Tree Map usage" />
-    <option name="LAST_COMMIT_MESSAGE" value="&gt; Basic implementations of multi threading&#10;&gt; Updates to hash Map and Tree Map usage" />
+    <MESSAGE value="&gt; Basic null checks in Java" />
+    <option name="LAST_COMMIT_MESSAGE" value="&gt; Basic null checks in Java" />
   </component>
 </project>
