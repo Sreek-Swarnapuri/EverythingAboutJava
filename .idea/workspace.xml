@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8dbe9a2-4be5-4942-b00a-868485360b9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nulls/HandlingNullsWithBeanValidationAnnotations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nulls/null_object_pattern/NullObjectPatternImplementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EverythingAboutJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EverythingAboutJava.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +35,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringProjects/SprintDataJPA_Hibernate/sprint-database-demo" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.HandlingNullsWithBeanValidationAnnotations">
+  <component name="RunManager" selected="Application.NullObjectPatternImplementation">
     <configuration name="HandlingNulls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nulls.HandlingNulls" />
       <module name="EverythingAboutJava" />
@@ -78,6 +75,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NullObjectPatternImplementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nulls.null_object_pattern.NullObjectPatternImplementation" />
+      <module name="EverythingAboutJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nulls.null_object_pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StreamsExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functional.streams.StreamsExamples" />
       <module name="EverythingAboutJava" />
@@ -91,26 +101,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadWaitAndNotify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.basic.ThreadWaitAndNotify" />
-      <module name="EverythingAboutJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multithreading.basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NullObjectPatternImplementation" />
         <item itemvalue="Application.HandlingNullsWithBeanValidationAnnotations" />
         <item itemvalue="Application.HandlingNullsWithAnnotations" />
         <item itemvalue="Application.HandlingNulls" />
         <item itemvalue="Application.StreamsExamples" />
-        <item itemvalue="Application.ThreadWaitAndNotify" />
       </list>
     </recent_temporary>
   </component>
